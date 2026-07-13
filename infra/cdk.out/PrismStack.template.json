@@ -1,0 +1,1285 @@
+{
+ "Description": "PRISM — product-feedback intelligence platform (portfolio deploy, tear-down-safe)",
+ "Resources": {
+  "PrismVpc6DEB2BAF": {
+   "Type": "AWS::EC2::VPC",
+   "Properties": {
+    "CidrBlock": "10.0.0.0/16",
+    "EnableDnsHostnames": true,
+    "EnableDnsSupport": true,
+    "InstanceTenancy": "default",
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "PrismStack/PrismVpc"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/Resource"
+   }
+  },
+  "PrismVpcpublicSubnet1Subnet5598907D": {
+   "Type": "AWS::EC2::Subnet",
+   "Properties": {
+    "AvailabilityZone": "eu-central-1a",
+    "CidrBlock": "10.0.0.0/24",
+    "MapPublicIpOnLaunch": true,
+    "Tags": [
+     {
+      "Key": "aws-cdk:subnet-name",
+      "Value": "public"
+     },
+     {
+      "Key": "aws-cdk:subnet-type",
+      "Value": "Public"
+     },
+     {
+      "Key": "Name",
+      "Value": "PrismStack/PrismVpc/publicSubnet1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet1/Subnet"
+   }
+  },
+  "PrismVpcpublicSubnet1RouteTable89555467": {
+   "Type": "AWS::EC2::RouteTable",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "PrismStack/PrismVpc/publicSubnet1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet1/RouteTable"
+   }
+  },
+  "PrismVpcpublicSubnet1RouteTableAssociation270F8878": {
+   "Type": "AWS::EC2::SubnetRouteTableAssociation",
+   "Properties": {
+    "RouteTableId": {
+     "Ref": "PrismVpcpublicSubnet1RouteTable89555467"
+    },
+    "SubnetId": {
+     "Ref": "PrismVpcpublicSubnet1Subnet5598907D"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet1/RouteTableAssociation"
+   }
+  },
+  "PrismVpcpublicSubnet1DefaultRoute1FB4C58F": {
+   "Type": "AWS::EC2::Route",
+   "Properties": {
+    "DestinationCidrBlock": "0.0.0.0/0",
+    "GatewayId": {
+     "Ref": "PrismVpcIGWAB4B75BD"
+    },
+    "RouteTableId": {
+     "Ref": "PrismVpcpublicSubnet1RouteTable89555467"
+    }
+   },
+   "DependsOn": [
+    "PrismVpcVPCGW27C1EFAD"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet1/DefaultRoute"
+   }
+  },
+  "PrismVpcpublicSubnet2Subnet8BDC105C": {
+   "Type": "AWS::EC2::Subnet",
+   "Properties": {
+    "AvailabilityZone": "eu-central-1b",
+    "CidrBlock": "10.0.1.0/24",
+    "MapPublicIpOnLaunch": true,
+    "Tags": [
+     {
+      "Key": "aws-cdk:subnet-name",
+      "Value": "public"
+     },
+     {
+      "Key": "aws-cdk:subnet-type",
+      "Value": "Public"
+     },
+     {
+      "Key": "Name",
+      "Value": "PrismStack/PrismVpc/publicSubnet2"
+     }
+    ],
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet2/Subnet"
+   }
+  },
+  "PrismVpcpublicSubnet2RouteTableF1840BB7": {
+   "Type": "AWS::EC2::RouteTable",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "PrismStack/PrismVpc/publicSubnet2"
+     }
+    ],
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet2/RouteTable"
+   }
+  },
+  "PrismVpcpublicSubnet2RouteTableAssociation7A84DF72": {
+   "Type": "AWS::EC2::SubnetRouteTableAssociation",
+   "Properties": {
+    "RouteTableId": {
+     "Ref": "PrismVpcpublicSubnet2RouteTableF1840BB7"
+    },
+    "SubnetId": {
+     "Ref": "PrismVpcpublicSubnet2Subnet8BDC105C"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet2/RouteTableAssociation"
+   }
+  },
+  "PrismVpcpublicSubnet2DefaultRoute5022BF50": {
+   "Type": "AWS::EC2::Route",
+   "Properties": {
+    "DestinationCidrBlock": "0.0.0.0/0",
+    "GatewayId": {
+     "Ref": "PrismVpcIGWAB4B75BD"
+    },
+    "RouteTableId": {
+     "Ref": "PrismVpcpublicSubnet2RouteTableF1840BB7"
+    }
+   },
+   "DependsOn": [
+    "PrismVpcVPCGW27C1EFAD"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/publicSubnet2/DefaultRoute"
+   }
+  },
+  "PrismVpcIGWAB4B75BD": {
+   "Type": "AWS::EC2::InternetGateway",
+   "Properties": {
+    "Tags": [
+     {
+      "Key": "Name",
+      "Value": "PrismStack/PrismVpc"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/IGW"
+   }
+  },
+  "PrismVpcVPCGW27C1EFAD": {
+   "Type": "AWS::EC2::VPCGatewayAttachment",
+   "Properties": {
+    "InternetGatewayId": {
+     "Ref": "PrismVpcIGWAB4B75BD"
+    },
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismVpc/VPCGW"
+   }
+  },
+  "AlbSg1155C1BE": {
+   "Type": "AWS::EC2::SecurityGroup",
+   "Properties": {
+    "GroupDescription": "PRISM ALB - public HTTP ingress (intentional, only entry point)",
+    "SecurityGroupEgress": [
+     {
+      "CidrIp": "0.0.0.0/0",
+      "Description": "Forward to Fargate task",
+      "FromPort": 8000,
+      "IpProtocol": "tcp",
+      "ToPort": 8000
+     }
+    ],
+    "SecurityGroupIngress": [
+     {
+      "CidrIp": "0.0.0.0/0",
+      "Description": "Public HTTP from internet",
+      "FromPort": 80,
+      "IpProtocol": "tcp",
+      "ToPort": 80
+     }
+    ],
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/AlbSg/Resource"
+   }
+  },
+  "AlbSgtoPrismStackTaskSg0A4C47B580001D9A63DE": {
+   "Type": "AWS::EC2::SecurityGroupEgress",
+   "Properties": {
+    "Description": "Load balancer to target",
+    "DestinationSecurityGroupId": {
+     "Fn::GetAtt": [
+      "TaskSgFD7B04A0",
+      "GroupId"
+     ]
+    },
+    "FromPort": 8000,
+    "GroupId": {
+     "Fn::GetAtt": [
+      "AlbSg1155C1BE",
+      "GroupId"
+     ]
+    },
+    "IpProtocol": "tcp",
+    "ToPort": 8000
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/AlbSg/to PrismStackTaskSg0A4C47B5:8000"
+   }
+  },
+  "TaskSgFD7B04A0": {
+   "Type": "AWS::EC2::SecurityGroup",
+   "Properties": {
+    "GroupDescription": "PRISM Fargate task - ingress from ALB only, open egress for external APIs",
+    "SecurityGroupEgress": [
+     {
+      "CidrIp": "0.0.0.0/0",
+      "Description": "Allow all outbound traffic by default",
+      "IpProtocol": "-1"
+     }
+    ],
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/TaskSg/Resource"
+   }
+  },
+  "TaskSgfromPrismStackAlbSgEF70614E800023F820A3": {
+   "Type": "AWS::EC2::SecurityGroupIngress",
+   "Properties": {
+    "Description": "From ALB only",
+    "FromPort": 8000,
+    "GroupId": {
+     "Fn::GetAtt": [
+      "TaskSgFD7B04A0",
+      "GroupId"
+     ]
+    },
+    "IpProtocol": "tcp",
+    "SourceSecurityGroupId": {
+     "Fn::GetAtt": [
+      "AlbSg1155C1BE",
+      "GroupId"
+     ]
+    },
+    "ToPort": 8000
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/TaskSg/from PrismStackAlbSgEF70614E:8000"
+   }
+  },
+  "DbSg495F8305": {
+   "Type": "AWS::EC2::SecurityGroup",
+   "Properties": {
+    "GroupDescription": "PRISM RDS - ingress from Fargate task SG only",
+    "SecurityGroupEgress": [
+     {
+      "CidrIp": "255.255.255.255/32",
+      "Description": "Disallow all traffic",
+      "FromPort": 252,
+      "IpProtocol": "icmp",
+      "ToPort": 86
+     }
+    ],
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/DbSg/Resource"
+   }
+  },
+  "DbSgfromPrismStackTaskSg0A4C47B554323D68F663": {
+   "Type": "AWS::EC2::SecurityGroupIngress",
+   "Properties": {
+    "Description": "Postgres from Fargate task only",
+    "FromPort": 5432,
+    "GroupId": {
+     "Fn::GetAtt": [
+      "DbSg495F8305",
+      "GroupId"
+     ]
+    },
+    "IpProtocol": "tcp",
+    "SourceSecurityGroupId": {
+     "Fn::GetAtt": [
+      "TaskSgFD7B04A0",
+      "GroupId"
+     ]
+    },
+    "ToPort": 5432
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/DbSg/from PrismStackTaskSg0A4C47B5:5432"
+   }
+  },
+  "PrismDbSubnetGroup9C338035": {
+   "Type": "AWS::RDS::DBSubnetGroup",
+   "Properties": {
+    "DBSubnetGroupDescription": "Subnet group for PrismDb database",
+    "SubnetIds": [
+     {
+      "Ref": "PrismVpcpublicSubnet1Subnet5598907D"
+     },
+     {
+      "Ref": "PrismVpcpublicSubnet2Subnet8BDC105C"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismDb/SubnetGroup/Default"
+   }
+  },
+  "PrismStackPrismDbSecret3CE4DC86751bb2c8db1439033c3cf7b466757eeb": {
+   "Type": "AWS::SecretsManager::Secret",
+   "Properties": {
+    "Description": {
+     "Fn::Join": [
+      "",
+      [
+       "Generated by the CDK for stack: ",
+       {
+        "Ref": "AWS::StackName"
+       }
+      ]
+     ]
+    },
+    "GenerateSecretString": {
+     "ExcludeCharacters": "/@:\"'`{} ",
+     "GenerateStringKey": "password",
+     "PasswordLength": 30,
+     "SecretStringTemplate": "{\"username\":\"prism\"}"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismDb/Secret/Resource"
+   }
+  },
+  "PrismDbSecretAttachment99C6D0A1": {
+   "Type": "AWS::SecretsManager::SecretTargetAttachment",
+   "Properties": {
+    "SecretId": {
+     "Ref": "PrismStackPrismDbSecret3CE4DC86751bb2c8db1439033c3cf7b466757eeb"
+    },
+    "TargetId": {
+     "Ref": "PrismDbB6CE47C6"
+    },
+    "TargetType": "AWS::RDS::DBInstance"
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismDb/Secret/Attachment/Resource"
+   }
+  },
+  "PrismDbB6CE47C6": {
+   "Type": "AWS::RDS::DBInstance",
+   "Properties": {
+    "AllocatedStorage": "20",
+    "BackupRetentionPeriod": 0,
+    "CopyTagsToSnapshot": true,
+    "DBInstanceClass": "db.t4g.micro",
+    "DBName": "prism",
+    "DBSubnetGroupName": {
+     "Ref": "PrismDbSubnetGroup9C338035"
+    },
+    "DeleteAutomatedBackups": true,
+    "DeletionProtection": false,
+    "Engine": "postgres",
+    "EngineVersion": "16",
+    "MasterUserPassword": {
+     "Fn::Join": [
+      "",
+      [
+       "{{resolve:secretsmanager:",
+       {
+        "Ref": "PrismStackPrismDbSecret3CE4DC86751bb2c8db1439033c3cf7b466757eeb"
+       },
+       ":SecretString:password::}}"
+      ]
+     ]
+    },
+    "MasterUsername": "prism",
+    "MultiAZ": false,
+    "PubliclyAccessible": false,
+    "StorageType": "gp3",
+    "VPCSecurityGroups": [
+     {
+      "Fn::GetAtt": [
+       "DbSg495F8305",
+       "GroupId"
+      ]
+     }
+    ]
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismDb/Resource"
+   }
+  },
+  "AnthropicApiKeyC9C806DA": {
+   "Type": "AWS::SecretsManager::Secret",
+   "Properties": {
+    "Description": "PRISM Anthropic API key - populate manually after first deploy",
+    "Name": "prism/anthropic-api-key",
+    "SecretString": "REPLACE_ME"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/AnthropicApiKey/Resource"
+   }
+  },
+  "PrismCluster0C7BD760": {
+   "Type": "AWS::ECS::Cluster",
+   "Properties": {
+    "ClusterName": "prism",
+    "ClusterSettings": [
+     {
+      "Name": "containerInsights",
+      "Value": "disabled"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismCluster/Resource"
+   }
+  },
+  "PrismTaskLogGroup": {
+   "Type": "AWS::Logs::LogGroup",
+   "Properties": {
+    "LogGroupName": "/ecs/prism-backend",
+    "RetentionInDays": 7
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismTaskLogGroup"
+   }
+  },
+  "PrismTaskExecutionRole214205D9": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "ecs-tasks.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismTaskExecutionRole/Resource"
+   }
+  },
+  "PrismTaskExecutionRoleDefaultPolicyDF04F8E1": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "secretsmanager:DescribeSecret",
+        "secretsmanager:GetSecretValue"
+       ],
+       "Effect": "Allow",
+       "Resource": [
+        {
+         "Ref": "AnthropicApiKeyC9C806DA"
+        },
+        {
+         "Ref": "PrismDbSecretAttachment99C6D0A1"
+        }
+       ]
+      },
+      {
+       "Action": [
+        "ecr:BatchCheckLayerAvailability",
+        "ecr:BatchGetImage",
+        "ecr:GetDownloadUrlForLayer"
+       ],
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::ImportValue": "PrismEcrStack:ExportsOutputFnGetAttPrismBackendRepoA63DF633Arn29D638DB"
+       }
+      },
+      {
+       "Action": "ecr:GetAuthorizationToken",
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": [
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+       ],
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::Join": [
+         "",
+         [
+          {
+           "Fn::GetAtt": [
+            "PrismTaskLogGroup",
+            "Arn"
+           ]
+          },
+          ":*"
+         ]
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "PrismTaskExecutionRoleDefaultPolicyDF04F8E1",
+    "Roles": [
+     {
+      "Ref": "PrismTaskExecutionRole214205D9"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismTaskExecutionRole/DefaultPolicy/Resource"
+   }
+  },
+  "PrismTaskRole9F91D9A8": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "ecs-tasks.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "Description": "Runtime role for PRISM Fargate task - add app-level AWS perms here"
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismTaskRole/Resource"
+   }
+  },
+  "PrismTaskRoleDefaultPolicy78DEBAA7": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "logs:CreateLogStream",
+        "logs:DescribeLogGroups",
+        "logs:DescribeLogStreams",
+        "logs:PutLogEvents",
+        "ssmmessages:CreateControlChannel",
+        "ssmmessages:CreateDataChannel",
+        "ssmmessages:OpenControlChannel",
+        "ssmmessages:OpenDataChannel"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "PrismTaskRoleDefaultPolicy78DEBAA7",
+    "Roles": [
+     {
+      "Ref": "PrismTaskRole9F91D9A8"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismTaskRole/DefaultPolicy/Resource"
+   }
+  },
+  "PrismTaskDefEA7A05E0": {
+   "Type": "AWS::ECS::TaskDefinition",
+   "Properties": {
+    "ContainerDefinitions": [
+     {
+      "Environment": [
+       {
+        "Name": "CORS_ALLOW_ORIGINS",
+        "Value": "*"
+       },
+       {
+        "Name": "HF_HOME",
+        "Value": "/app/models"
+       },
+       {
+        "Name": "SENTENCE_TRANSFORMERS_HOME",
+        "Value": "/app/models"
+       },
+       {
+        "Name": "PYTHONUNBUFFERED",
+        "Value": "1"
+       }
+      ],
+      "Essential": true,
+      "Image": {
+       "Fn::Join": [
+        "",
+        [
+         {
+          "Fn::Select": [
+           4,
+           {
+            "Fn::Split": [
+             ":",
+             {
+              "Fn::ImportValue": "PrismEcrStack:ExportsOutputFnGetAttPrismBackendRepoA63DF633Arn29D638DB"
+             }
+            ]
+           }
+          ]
+         },
+         ".dkr.ecr.",
+         {
+          "Fn::Select": [
+           3,
+           {
+            "Fn::Split": [
+             ":",
+             {
+              "Fn::ImportValue": "PrismEcrStack:ExportsOutputFnGetAttPrismBackendRepoA63DF633Arn29D638DB"
+             }
+            ]
+           }
+          ]
+         },
+         ".",
+         {
+          "Ref": "AWS::URLSuffix"
+         },
+         "/",
+         {
+          "Fn::ImportValue": "PrismEcrStack:ExportsOutputRefPrismBackendRepoA63DF6332AF4D81A"
+         },
+         ":latest"
+        ]
+       ]
+      },
+      "LogConfiguration": {
+       "LogDriver": "awslogs",
+       "Options": {
+        "awslogs-group": {
+         "Fn::Select": [
+          6,
+          {
+           "Fn::Split": [
+            ":",
+            {
+             "Fn::GetAtt": [
+              "PrismTaskLogGroup",
+              "Arn"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        "awslogs-stream-prefix": "prism",
+        "awslogs-region": {
+         "Fn::Select": [
+          3,
+          {
+           "Fn::Split": [
+            ":",
+            {
+             "Fn::GetAtt": [
+              "PrismTaskLogGroup",
+              "Arn"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       }
+      },
+      "Name": "prism-backend",
+      "PortMappings": [
+       {
+        "ContainerPort": 8000,
+        "Protocol": "tcp"
+       }
+      ],
+      "Secrets": [
+       {
+        "Name": "POSTGRES_USER",
+        "ValueFrom": {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Ref": "PrismDbSecretAttachment99C6D0A1"
+           },
+           ":username:AWSCURRENT:"
+          ]
+         ]
+        }
+       },
+       {
+        "Name": "POSTGRES_PASSWORD",
+        "ValueFrom": {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Ref": "PrismDbSecretAttachment99C6D0A1"
+           },
+           ":password:AWSCURRENT:"
+          ]
+         ]
+        }
+       },
+       {
+        "Name": "POSTGRES_HOST",
+        "ValueFrom": {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Ref": "PrismDbSecretAttachment99C6D0A1"
+           },
+           ":host:AWSCURRENT:"
+          ]
+         ]
+        }
+       },
+       {
+        "Name": "POSTGRES_PORT",
+        "ValueFrom": {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Ref": "PrismDbSecretAttachment99C6D0A1"
+           },
+           ":port:AWSCURRENT:"
+          ]
+         ]
+        }
+       },
+       {
+        "Name": "POSTGRES_DB",
+        "ValueFrom": {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Ref": "PrismDbSecretAttachment99C6D0A1"
+           },
+           ":dbname:AWSCURRENT:"
+          ]
+         ]
+        }
+       },
+       {
+        "Name": "ANTHROPIC_API_KEY",
+        "ValueFrom": {
+         "Ref": "AnthropicApiKeyC9C806DA"
+        }
+       }
+      ]
+     }
+    ],
+    "Cpu": "512",
+    "ExecutionRoleArn": {
+     "Fn::GetAtt": [
+      "PrismTaskExecutionRole214205D9",
+      "Arn"
+     ]
+    },
+    "Family": "PrismStackPrismTaskDefEADDE775",
+    "Memory": "2048",
+    "NetworkMode": "awsvpc",
+    "RequiresCompatibilities": [
+     "FARGATE"
+    ],
+    "TaskRoleArn": {
+     "Fn::GetAtt": [
+      "PrismTaskRole9F91D9A8",
+      "Arn"
+     ]
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismTaskDef/Resource"
+   }
+  },
+  "PrismAlb790DE988": {
+   "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+   "Properties": {
+    "LoadBalancerAttributes": [
+     {
+      "Key": "deletion_protection.enabled",
+      "Value": "false"
+     }
+    ],
+    "Name": "prism-alb",
+    "Scheme": "internet-facing",
+    "SecurityGroups": [
+     {
+      "Fn::GetAtt": [
+       "AlbSg1155C1BE",
+       "GroupId"
+      ]
+     }
+    ],
+    "Subnets": [
+     {
+      "Ref": "PrismVpcpublicSubnet1Subnet5598907D"
+     },
+     {
+      "Ref": "PrismVpcpublicSubnet2Subnet8BDC105C"
+     }
+    ],
+    "Type": "application"
+   },
+   "DependsOn": [
+    "PrismVpcpublicSubnet1DefaultRoute1FB4C58F",
+    "PrismVpcpublicSubnet1RouteTableAssociation270F8878",
+    "PrismVpcpublicSubnet2DefaultRoute5022BF50",
+    "PrismVpcpublicSubnet2RouteTableAssociation7A84DF72"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismAlb/Resource"
+   }
+  },
+  "PrismAlbPublicListenerA5664FF5": {
+   "Type": "AWS::ElasticLoadBalancingV2::Listener",
+   "Properties": {
+    "DefaultActions": [
+     {
+      "TargetGroupArn": {
+       "Ref": "PrismAlbPublicListenerECSGroup77803E32"
+      },
+      "Type": "forward"
+     }
+    ],
+    "LoadBalancerArn": {
+     "Ref": "PrismAlb790DE988"
+    },
+    "Port": 80,
+    "Protocol": "HTTP"
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismAlb/PublicListener/Resource"
+   }
+  },
+  "PrismAlbPublicListenerECSGroup77803E32": {
+   "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+   "Properties": {
+    "HealthCheckIntervalSeconds": 30,
+    "HealthCheckPath": "/health",
+    "HealthCheckTimeoutSeconds": 10,
+    "HealthyThresholdCount": 2,
+    "Matcher": {
+     "HttpCode": "200"
+    },
+    "Port": 80,
+    "Protocol": "HTTP",
+    "TargetGroupAttributes": [
+     {
+      "Key": "stickiness.enabled",
+      "Value": "false"
+     }
+    ],
+    "TargetType": "ip",
+    "VpcId": {
+     "Ref": "PrismVpc6DEB2BAF"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismAlb/PublicListener/ECSGroup/Resource"
+   }
+  },
+  "PrismService9802D7EB": {
+   "Type": "AWS::ECS::Service",
+   "Properties": {
+    "Cluster": {
+     "Ref": "PrismCluster0C7BD760"
+    },
+    "DeploymentConfiguration": {
+     "DeploymentCircuitBreaker": {
+      "Enable": true,
+      "Rollback": true
+     },
+     "MaximumPercent": 200,
+     "MinimumHealthyPercent": 0
+    },
+    "DeploymentController": {
+     "Type": "ECS"
+    },
+    "DesiredCount": 1,
+    "EnableECSManagedTags": false,
+    "EnableExecuteCommand": true,
+    "HealthCheckGracePeriodSeconds": 120,
+    "LaunchType": "FARGATE",
+    "LoadBalancers": [
+     {
+      "ContainerName": "prism-backend",
+      "ContainerPort": 8000,
+      "TargetGroupArn": {
+       "Ref": "PrismAlbPublicListenerECSGroup77803E32"
+      }
+     }
+    ],
+    "NetworkConfiguration": {
+     "AwsvpcConfiguration": {
+      "AssignPublicIp": "ENABLED",
+      "SecurityGroups": [
+       {
+        "Fn::GetAtt": [
+         "TaskSgFD7B04A0",
+         "GroupId"
+        ]
+       }
+      ],
+      "Subnets": [
+       {
+        "Ref": "PrismVpcpublicSubnet1Subnet5598907D"
+       },
+       {
+        "Ref": "PrismVpcpublicSubnet2Subnet8BDC105C"
+       }
+      ]
+     }
+    },
+    "ServiceName": "prism-backend",
+    "TaskDefinition": {
+     "Ref": "PrismTaskDefEA7A05E0"
+    }
+   },
+   "DependsOn": [
+    "PrismAlbPublicListenerECSGroup77803E32",
+    "PrismAlbPublicListenerA5664FF5",
+    "PrismTaskRoleDefaultPolicy78DEBAA7",
+    "PrismTaskRole9F91D9A8"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/PrismService/Service/Service"
+   }
+  },
+  "GithubOidcProvider": {
+   "Type": "AWS::IAM::OIDCProvider",
+   "Properties": {
+    "ClientIdList": [
+     "sts.amazonaws.com"
+    ],
+    "ThumbprintList": [
+     "6938fd4d98bab03faadb97b34396831e3780aea1"
+    ],
+    "Url": "https://token.actions.githubusercontent.com"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/GithubOidcProvider"
+   }
+  },
+  "GithubDeployRoleB0CF66A5": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRoleWithWebIdentity",
+       "Condition": {
+        "StringEquals": {
+         "token.actions.githubusercontent.com:aud": "sts.amazonaws.com",
+         "token.actions.githubusercontent.com:sub": "repo:dhollander8991/prism:ref:refs/heads/main"
+        }
+       },
+       "Effect": "Allow",
+       "Principal": {
+        "Federated": {
+         "Fn::GetAtt": [
+          "GithubOidcProvider",
+          "Arn"
+         ]
+        }
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "Description": "Assumed by GitHub Actions on push to main to deploy PRISM",
+    "RoleName": "prism-github-deploy"
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/GithubDeployRole/Resource"
+   }
+  },
+  "GithubDeployRoleDefaultPolicyE8F540D1": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "ecr:BatchCheckLayerAvailability",
+        "ecr:BatchGetImage",
+        "ecr:CompleteLayerUpload",
+        "ecr:GetDownloadUrlForLayer",
+        "ecr:InitiateLayerUpload",
+        "ecr:PutImage",
+        "ecr:UploadLayerPart"
+       ],
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::ImportValue": "PrismEcrStack:ExportsOutputFnGetAttPrismBackendRepoA63DF633Arn29D638DB"
+       }
+      },
+      {
+       "Action": "ecr:GetAuthorizationToken",
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": [
+        "ecs:DeregisterTaskDefinition",
+        "ecs:DescribeClusters",
+        "ecs:DescribeServices",
+        "ecs:DescribeTaskDefinition",
+        "ecs:ListTaskDefinitions",
+        "ecs:RegisterTaskDefinition",
+        "ecs:UpdateService"
+       ],
+       "Effect": "Allow",
+       "Resource": "*",
+       "Sid": "EcsRedeploy"
+      },
+      {
+       "Action": "iam:PassRole",
+       "Effect": "Allow",
+       "Resource": [
+        {
+         "Fn::GetAtt": [
+          "PrismTaskExecutionRole214205D9",
+          "Arn"
+         ]
+        },
+        {
+         "Fn::GetAtt": [
+          "PrismTaskRole9F91D9A8",
+          "Arn"
+         ]
+        }
+       ],
+       "Sid": "PassTaskRoles"
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "GithubDeployRoleDefaultPolicyE8F540D1",
+    "Roles": [
+     {
+      "Ref": "GithubDeployRoleB0CF66A5"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/GithubDeployRole/DefaultPolicy/Resource"
+   }
+  },
+  "CDKMetadata": {
+   "Type": "AWS::CDK::Metadata",
+   "Properties": {
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/31SXWvrMAz9LXt3vXvzsPc2uXcUBivN2OtQHDXz6srBkltGyH8fiZs2+2Bg0NHRcRQdOdPZ3V/95wZOvDD1fuFspbtSwOwVnPilQ5Pp7rk1Kt/R8yZXm1g5a8pYEcrAXdHWR8EnqBxe+Su3ZPbGglhPF/EA1iQYCOUeBE/wfm5zzpYiYF4PSKJKNDFYeb8PPrZjg1+Jf01A5m/0mka+V6Fm3RUgUAHjmliADKr005cvFqs5MalLNCFNXKymm73ikeUDEDQYdJc6D8IUniA0KLOBLoJvlUT3Cg3rLneRBcMgn+B/CA0MtvK+wJ0lO5n6lfEkYAnDjDvfLTEcrUmLSrBXzjes8x09+CYNbOGgu61P+xzjxjtrxh1d0eO6yDfBH22NoVfogMUa56GuwAEZS80x092ybZ014/ofPNSrsZbG+pTPdZYF6ayZ8KyefLssa5aO1r20IMPTYv1z7/qzFb3aIvsYkimPUdoovSJfo37j22OW6eHcvLG1ixBJ7AH1NsUPko3tJ0MDAAA="
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismStack/CDKMetadata/Default"
+   }
+  }
+ },
+ "Outputs": {
+  "PrismServiceLoadBalancerDNS9C9DE8C4": {
+   "Value": {
+    "Fn::GetAtt": [
+     "PrismAlb790DE988",
+     "DNSName"
+    ]
+   }
+  },
+  "PrismServiceServiceURL6619A69A": {
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "http://",
+      {
+       "Fn::GetAtt": [
+        "PrismAlb790DE988",
+        "DNSName"
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  "AlbDnsName": {
+   "Description": "ALB DNS - set as VITE_API_URL in the Vercel frontend",
+   "Value": {
+    "Fn::GetAtt": [
+     "PrismAlb790DE988",
+     "DNSName"
+    ]
+   },
+   "Export": {
+    "Name": "PrismAlbDns"
+   }
+  },
+  "RdsEndpoint": {
+   "Description": "RDS hostname (internal - not publicly reachable)",
+   "Value": {
+    "Fn::GetAtt": [
+     "PrismDbB6CE47C6",
+     "Endpoint.Address"
+    ]
+   },
+   "Export": {
+    "Name": "PrismRdsEndpoint"
+   }
+  },
+  "DbSecretArn": {
+   "Description": "RDS credentials secret - used by `make seed-from-dump` to open the SSM tunnel",
+   "Value": {
+    "Ref": "PrismDbSecretAttachment99C6D0A1"
+   },
+   "Export": {
+    "Name": "PrismDbSecretArn"
+   }
+  },
+  "AnthropicSecretArn": {
+   "Description": "Populate with: aws secretsmanager put-secret-value --secret-id <ARN> --secret-string <KEY>",
+   "Value": {
+    "Ref": "AnthropicApiKeyC9C806DA"
+   },
+   "Export": {
+    "Name": "PrismAnthropicSecretArn"
+   }
+  },
+  "OidcRoleArn": {
+   "Description": "GitHub Actions role ARN - set as AWS_ROLE_ARN in repo secrets",
+   "Value": {
+    "Fn::GetAtt": [
+     "GithubDeployRoleB0CF66A5",
+     "Arn"
+    ]
+   },
+   "Export": {
+    "Name": "PrismOidcRoleArn"
+   }
+  },
+  "EcsClusterName": {
+   "Value": {
+    "Ref": "PrismCluster0C7BD760"
+   },
+   "Export": {
+    "Name": "PrismEcsCluster"
+   }
+  },
+  "EcsServiceName": {
+   "Value": {
+    "Fn::GetAtt": [
+     "PrismService9802D7EB",
+     "Name"
+    ]
+   },
+   "Export": {
+    "Name": "PrismEcsService"
+   }
+  }
+ },
+ "Parameters": {
+  "BootstrapVersion": {
+   "Type": "AWS::SSM::Parameter::Value<String>",
+   "Default": "/cdk-bootstrap/hnb659fds/version",
+   "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]"
+  }
+ },
+ "Rules": {
+  "CheckBootstrapVersion": {
+   "Assertions": [
+    {
+     "Assert": {
+      "Fn::Not": [
+       {
+        "Fn::Contains": [
+         [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+         ],
+         {
+          "Ref": "BootstrapVersion"
+         }
+        ]
+       }
+      ]
+     },
+     "AssertDescription": "CDK bootstrap stack version 6 required. Please run 'cdk bootstrap' with a recent version of the CDK CLI."
+    }
+   ]
+  }
+ }
+}

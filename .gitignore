@@ -1,0 +1,12 @@
+backend/.env
+.env
+/frontend/node_modules
+
+# local DB dump for seed-from-dump (data, not code)
+prism_data.sql
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+frontend/node_modules/

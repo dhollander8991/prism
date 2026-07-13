@@ -1,0 +1,175 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "@fontsource-variable/inter";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans:
+    "Inter Variable", "Inter", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  --color-priority-p0: var(--priority-p0);
+  --color-priority-p0-foreground: var(--priority-p0-foreground);
+  --color-priority-p1: var(--priority-p1);
+  --color-priority-p1-foreground: var(--priority-p1-foreground);
+  --color-priority-p2: var(--priority-p2);
+  --color-priority-p2-foreground: var(--priority-p2-foreground);
+  --color-priority-p3: var(--priority-p3);
+  --color-priority-p3-foreground: var(--priority-p3-foreground);
+
+  --color-churn-high: var(--churn-high);
+  --color-churn-med: var(--churn-med);
+  --color-churn-low: var(--churn-low);
+
+  --color-urgency-immediate: var(--urgency-immediate);
+  --color-urgency-sprint: var(--urgency-sprint);
+  --color-urgency-quarter: var(--urgency-quarter);
+
+  --color-star: var(--star);
+
+  --shadow-card: 0 1px 2px 0 rgb(15 20 30 / 0.04), 0 1px 3px 0 rgb(15 20 30 / 0.03);
+  --shadow-card-hover: 0 2px 4px 0 rgb(15 20 30 / 0.05), 0 4px 12px -2px rgb(15 20 30 / 0.06);
+  --shadow-drawer: -24px 0 48px -12px rgb(15 20 30 / 0.18), -8px 0 16px -4px rgb(15 20 30 / 0.12);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  /* Warmer, higher-contrast neutrals (slate/zinc, slight warmth) */
+  --background: oklch(0.985 0.003 65);       /* warm off-white page */
+  --surface: oklch(0.975 0.004 65);          /* section surface */
+  --foreground: oklch(0.18 0.012 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.012 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.012 260);
+  --primary: oklch(0.22 0.02 260);
+  --primary-foreground: oklch(0.985 0.003 65);
+  --secondary: oklch(0.955 0.005 65);
+  --secondary-foreground: oklch(0.22 0.02 260);
+  --muted: oklch(0.955 0.005 65);
+  --muted-foreground: oklch(0.5 0.014 260);
+  --accent: oklch(0.955 0.005 65);
+  --accent-foreground: oklch(0.22 0.02 260);
+  --destructive: oklch(0.56 0.22 27);
+  --destructive-foreground: oklch(0.985 0.003 65);
+  --border: oklch(0.905 0.008 260);
+  --border-strong: oklch(0.85 0.01 260);
+  --input: oklch(0.905 0.008 260);
+  --ring: oklch(0.68 0.03 260);
+
+  /* Priority — solid, confident */
+  --priority-p0: oklch(0.56 0.22 27);        /* red */
+  --priority-p0-foreground: oklch(1 0 0);
+  --priority-p1: oklch(0.72 0.16 60);        /* amber */
+  --priority-p1-foreground: oklch(0.22 0.05 60);
+  --priority-p2: oklch(0.52 0.13 245);       /* muted blue */
+  --priority-p2-foreground: oklch(1 0 0);
+  --priority-p3: oklch(0.5 0.012 260);       /* neutral slate */
+  --priority-p3-foreground: oklch(1 0 0);
+
+  /* Churn (used as outline chip tint) */
+  --churn-high: oklch(0.56 0.22 27);
+  --churn-med: oklch(0.62 0.15 60);
+  --churn-low: oklch(0.5 0.012 260);
+
+  --urgency-immediate: oklch(0.56 0.22 27);
+  --urgency-sprint: oklch(0.62 0.15 60);
+  --urgency-quarter: oklch(0.5 0.012 260);
+
+  --star: oklch(0.78 0.16 75);
+}
+
+.dark {
+  --background: oklch(0.16 0.012 260);
+  --surface: oklch(0.19 0.014 260);
+  --foreground: oklch(0.97 0.004 65);
+  --card: oklch(0.21 0.014 260);
+  --card-foreground: oklch(0.97 0.004 65);
+  --popover: oklch(0.21 0.014 260);
+  --popover-foreground: oklch(0.97 0.004 65);
+  --primary: oklch(0.93 0.01 260);
+  --primary-foreground: oklch(0.2 0.014 260);
+  --secondary: oklch(0.26 0.014 260);
+  --secondary-foreground: oklch(0.97 0.004 65);
+  --muted: oklch(0.26 0.014 260);
+  --muted-foreground: oklch(0.68 0.018 260);
+  --accent: oklch(0.26 0.014 260);
+  --accent-foreground: oklch(0.97 0.004 65);
+  --destructive: oklch(0.68 0.2 25);
+  --destructive-foreground: oklch(0.97 0.004 65);
+  --border: oklch(1 0 0 / 12%);
+  --border-strong: oklch(1 0 0 / 20%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.55 0.03 260);
+
+  --priority-p0: oklch(0.66 0.22 27);
+  --priority-p0-foreground: oklch(0.14 0.02 27);
+  --priority-p1: oklch(0.78 0.16 65);
+  --priority-p1-foreground: oklch(0.18 0.04 60);
+  --priority-p2: oklch(0.65 0.14 245);
+  --priority-p2-foreground: oklch(0.12 0.02 260);
+  --priority-p3: oklch(0.62 0.015 260);
+  --priority-p3-foreground: oklch(0.14 0.01 260);
+
+  --churn-high: oklch(0.72 0.2 27);
+  --churn-med: oklch(0.78 0.16 65);
+  --churn-low: oklch(0.68 0.02 260);
+
+  --urgency-immediate: oklch(0.72 0.2 27);
+  --urgency-sprint: oklch(0.78 0.16 65);
+  --urgency-quarter: oklch(0.68 0.02 260);
+
+  --star: oklch(0.82 0.16 75);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-feature-settings: "cv11", "ss01", "ss03";
+  }
+}

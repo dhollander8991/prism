@@ -1,0 +1,21 @@
+{
+  "version": "54.0.0",
+  "files": {
+    "7faa576929a23eb1b87931abeb042b32da15bca56b046219ed9636dfe3046cb1": {
+      "displayName": "PrismEcrStack Template",
+      "source": {
+        "path": "PrismEcrStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "186048966015-eu-central-1-ca063fa7": {
+          "bucketName": "cdk-hnb659fds-assets-186048966015-eu-central-1",
+          "objectKey": "7faa576929a23eb1b87931abeb042b32da15bca56b046219ed9636dfe3046cb1.json",
+          "region": "eu-central-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::186048966015:role/cdk-hnb659fds-file-publishing-role-186048966015-eu-central-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

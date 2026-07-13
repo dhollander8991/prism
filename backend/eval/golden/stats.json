@@ -1,0 +1,508 @@
+{
+  "cluster_5": {
+    "item_count": 115,
+    "star_distribution": {
+      "1": 44,
+      "2": 10,
+      "3": 22,
+      "4": 10,
+      "5": 29
+    },
+    "country_breakdown": {
+      "us": 59,
+      "gb": 26,
+      "ca": 21,
+      "au": 9
+    },
+    "date_range": {
+      "min": "2022-05-11T06:57:04+00:00",
+      "max": "2026-07-02T23:34:20+00:00"
+    },
+    "last_30_days": 6,
+    "prior_30_days": 13,
+    "trend": "decreasing"
+  },
+  "cluster_30": {
+    "item_count": 551,
+    "star_distribution": {
+      "1": 31,
+      "2": 10,
+      "3": 18,
+      "4": 56,
+      "5": 436
+    },
+    "country_breakdown": {
+      "us": 151,
+      "ca": 144,
+      "gb": 141,
+      "au": 115
+    },
+    "date_range": {
+      "min": "2017-09-21T10:13:16+00:00",
+      "max": "2026-07-04T01:46:40+00:00"
+    },
+    "last_30_days": 23,
+    "prior_30_days": 27,
+    "trend": "decreasing"
+  },
+  "cluster_24": {
+    "item_count": 37,
+    "star_distribution": {
+      "1": 20,
+      "2": 8,
+      "3": 7,
+      "4": 1,
+      "5": 1
+    },
+    "country_breakdown": {
+      "gb": 12,
+      "ca": 11,
+      "us": 8,
+      "au": 6
+    },
+    "date_range": {
+      "min": "2020-06-03T22:51:22+00:00",
+      "max": "2026-07-02T12:28:34+00:00"
+    },
+    "last_30_days": 3,
+    "prior_30_days": 3,
+    "trend": "stable"
+  },
+  "cluster_29": {
+    "item_count": 26,
+    "star_distribution": {
+      "1": 5,
+      "2": 6,
+      "3": 7,
+      "4": 6,
+      "5": 2
+    },
+    "country_breakdown": {
+      "gb": 11,
+      "ca": 7,
+      "au": 5,
+      "us": 3
+    },
+    "date_range": {
+      "min": "2020-02-11T10:29:51+00:00",
+      "max": "2026-05-07T22:12:40+00:00"
+    },
+    "last_30_days": 0,
+    "prior_30_days": 0,
+    "trend": "stable"
+  },
+  "cluster_18": {
+    "item_count": 82,
+    "star_distribution": {
+      "1": 38,
+      "2": 15,
+      "3": 12,
+      "4": 12,
+      "5": 5
+    },
+    "country_breakdown": {
+      "us": 37,
+      "ca": 19,
+      "gb": 14,
+      "au": 12
+    },
+    "date_range": {
+      "min": "2020-09-17T09:27:26+00:00",
+      "max": "2026-06-16T22:07:59+00:00"
+    },
+    "last_30_days": 2,
+    "prior_30_days": 7,
+    "trend": "decreasing"
+  },
+  "cluster_12": {
+    "item_count": 29,
+    "star_distribution": {
+      "1": 25,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    },
+    "country_breakdown": {
+      "ca": 11,
+      "gb": 11,
+      "us": 5,
+      "au": 2
+    },
+    "date_range": {
+      "min": "2021-03-22T10:19:48+00:00",
+      "max": "2026-06-03T05:58:16+00:00"
+    },
+    "last_30_days": 0,
+    "prior_30_days": 1,
+    "trend": "decreasing"
+  },
+  "cluster_15": {
+    "item_count": 67,
+    "star_distribution": {
+      "1": 20,
+      "2": 9,
+      "3": 15,
+      "4": 15,
+      "5": 8
+    },
+    "country_breakdown": {
+      "gb": 25,
+      "ca": 17,
+      "us": 15,
+      "au": 10
+    },
+    "date_range": {
+      "min": "2019-12-02T05:44:54+00:00",
+      "max": "2026-06-28T07:46:25+00:00"
+    },
+    "last_30_days": 3,
+    "prior_30_days": 2,
+    "trend": "increasing"
+  },
+  "cluster_16": {
+    "item_count": 15,
+    "star_distribution": {
+      "1": 5,
+      "2": 5,
+      "3": 3,
+      "4": 1,
+      "5": 1
+    },
+    "country_breakdown": {
+      "us": 8,
+      "ca": 3,
+      "gb": 2,
+      "au": 2
+    },
+    "date_range": {
+      "min": "2022-02-12T19:15:53+00:00",
+      "max": "2026-07-05T18:59:34+00:00"
+    },
+    "last_30_days": 2,
+    "prior_30_days": 1,
+    "trend": "increasing"
+  },
+  "cluster_3": {
+    "item_count": 63,
+    "star_distribution": {
+      "1": 45,
+      "2": 4,
+      "3": 5,
+      "4": 4,
+      "5": 5
+    },
+    "country_breakdown": {
+      "ca": 22,
+      "gb": 15,
+      "us": 15,
+      "au": 11
+    },
+    "date_range": {
+      "min": "2021-07-23T03:07:04+00:00",
+      "max": "2026-07-05T16:59:25+00:00"
+    },
+    "last_30_days": 2,
+    "prior_30_days": 2,
+    "trend": "stable"
+  },
+  "cluster_9": {
+    "item_count": 30,
+    "star_distribution": {
+      "1": 11,
+      "2": 4,
+      "3": 7,
+      "4": 4,
+      "5": 4
+    },
+    "country_breakdown": {
+      "ca": 11,
+      "gb": 9,
+      "au": 7,
+      "us": 3
+    },
+    "date_range": {
+      "min": "2020-01-14T02:48:53+00:00",
+      "max": "2026-07-03T17:41:42+00:00"
+    },
+    "last_30_days": 1,
+    "prior_30_days": 0,
+    "trend": "increasing"
+  },
+  "cluster_7": {
+    "item_count": 12,
+    "star_distribution": {
+      "1": 5,
+      "2": 4,
+      "3": 2,
+      "4": 1,
+      "5": 0
+    },
+    "country_breakdown": {
+      "gb": 5,
+      "us": 5,
+      "au": 1,
+      "ca": 1
+    },
+    "date_range": {
+      "min": "2022-02-16T15:03:23+00:00",
+      "max": "2026-06-24T01:31:39+00:00"
+    },
+    "last_30_days": 1,
+    "prior_30_days": 1,
+    "trend": "stable"
+  },
+  "cluster_13": {
+    "item_count": 50,
+    "star_distribution": {
+      "1": 30,
+      "2": 7,
+      "3": 7,
+      "4": 5,
+      "5": 1
+    },
+    "country_breakdown": {
+      "gb": 15,
+      "ca": 14,
+      "au": 13,
+      "us": 8
+    },
+    "date_range": {
+      "min": "2019-06-18T09:29:57+00:00",
+      "max": "2026-06-18T21:53:54+00:00"
+    },
+    "last_30_days": 2,
+    "prior_30_days": 2,
+    "trend": "stable"
+  },
+  "cluster_34": {
+    "item_count": 32,
+    "star_distribution": {
+      "1": 9,
+      "2": 9,
+      "3": 6,
+      "4": 5,
+      "5": 3
+    },
+    "country_breakdown": {
+      "gb": 14,
+      "au": 9,
+      "ca": 6,
+      "us": 3
+    },
+    "date_range": {
+      "min": "2020-05-02T09:54:30+00:00",
+      "max": "2026-06-21T21:30:05+00:00"
+    },
+    "last_30_days": 1,
+    "prior_30_days": 0,
+    "trend": "increasing"
+  },
+  "cluster_4": {
+    "item_count": 19,
+    "star_distribution": {
+      "1": 4,
+      "2": 3,
+      "3": 4,
+      "4": 1,
+      "5": 7
+    },
+    "country_breakdown": {
+      "ca": 8,
+      "au": 5,
+      "gb": 4,
+      "us": 2
+    },
+    "date_range": {
+      "min": "2020-05-31T22:55:43+00:00",
+      "max": "2026-02-10T13:40:36+00:00"
+    },
+    "last_30_days": 0,
+    "prior_30_days": 0,
+    "trend": "stable"
+  },
+  "cluster_26": {
+    "item_count": 19,
+    "star_distribution": {
+      "1": 11,
+      "2": 6,
+      "3": 2,
+      "4": 0,
+      "5": 0
+    },
+    "country_breakdown": {
+      "us": 7,
+      "ca": 7,
+      "au": 3,
+      "gb": 2
+    },
+    "date_range": {
+      "min": "2021-01-14T17:24:06+00:00",
+      "max": "2026-06-07T16:34:12+00:00"
+    },
+    "last_30_days": 0,
+    "prior_30_days": 2,
+    "trend": "decreasing"
+  },
+  "cluster_20": {
+    "item_count": 29,
+    "star_distribution": {
+      "1": 15,
+      "2": 4,
+      "3": 3,
+      "4": 4,
+      "5": 3
+    },
+    "country_breakdown": {
+      "us": 12,
+      "gb": 9,
+      "ca": 7,
+      "au": 1
+    },
+    "date_range": {
+      "min": "2021-08-04T04:25:35+00:00",
+      "max": "2026-07-02T13:34:04+00:00"
+    },
+    "last_30_days": 1,
+    "prior_30_days": 5,
+    "trend": "decreasing"
+  },
+  "cluster_21": {
+    "item_count": 45,
+    "star_distribution": {
+      "1": 17,
+      "2": 15,
+      "3": 8,
+      "4": 3,
+      "5": 2
+    },
+    "country_breakdown": {
+      "gb": 14,
+      "ca": 14,
+      "us": 9,
+      "au": 8
+    },
+    "date_range": {
+      "min": "2021-09-04T02:10:06+00:00",
+      "max": "2026-06-29T15:37:50+00:00"
+    },
+    "last_30_days": 1,
+    "prior_30_days": 1,
+    "trend": "stable"
+  },
+  "cluster_6": {
+    "item_count": 49,
+    "star_distribution": {
+      "1": 9,
+      "2": 5,
+      "3": 12,
+      "4": 15,
+      "5": 8
+    },
+    "country_breakdown": {
+      "ca": 21,
+      "gb": 13,
+      "us": 10,
+      "au": 5
+    },
+    "date_range": {
+      "min": "2020-12-21T22:12:24+00:00",
+      "max": "2026-06-28T16:46:01+00:00"
+    },
+    "last_30_days": 2,
+    "prior_30_days": 1,
+    "trend": "increasing"
+  },
+  "cluster_31": {
+    "item_count": 14,
+    "star_distribution": {
+      "1": 3,
+      "2": 2,
+      "3": 4,
+      "4": 5,
+      "5": 0
+    },
+    "country_breakdown": {
+      "gb": 8,
+      "au": 2,
+      "us": 2,
+      "ca": 2
+    },
+    "date_range": {
+      "min": "2021-01-15T01:12:23+00:00",
+      "max": "2026-05-16T15:06:53+00:00"
+    },
+    "last_30_days": 0,
+    "prior_30_days": 1,
+    "trend": "decreasing"
+  },
+  "cluster_32": {
+    "item_count": 52,
+    "star_distribution": {
+      "1": 11,
+      "2": 9,
+      "3": 12,
+      "4": 10,
+      "5": 10
+    },
+    "country_breakdown": {
+      "gb": 19,
+      "ca": 13,
+      "us": 11,
+      "au": 9
+    },
+    "date_range": {
+      "min": "2020-03-02T10:42:23+00:00",
+      "max": "2026-07-06T01:09:57+00:00"
+    },
+    "last_30_days": 1,
+    "prior_30_days": 3,
+    "trend": "decreasing"
+  },
+  "cluster_23": {
+    "item_count": 14,
+    "star_distribution": {
+      "1": 11,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 0
+    },
+    "country_breakdown": {
+      "ca": 5,
+      "gb": 4,
+      "us": 3,
+      "au": 2
+    },
+    "date_range": {
+      "min": "2021-01-15T15:10:03+00:00",
+      "max": "2026-05-31T19:43:10+00:00"
+    },
+    "last_30_days": 0,
+    "prior_30_days": 2,
+    "trend": "decreasing"
+  },
+  "cluster_2": {
+    "item_count": 21,
+    "star_distribution": {
+      "1": 4,
+      "2": 5,
+      "3": 3,
+      "4": 0,
+      "5": 9
+    },
+    "country_breakdown": {
+      "us": 11,
+      "au": 4,
+      "ca": 3,
+      "gb": 3
+    },
+    "date_range": {
+      "min": "2023-02-10T06:40:42+00:00",
+      "max": "2026-06-21T15:58:17+00:00"
+    },
+    "last_30_days": 2,
+    "prior_30_days": 0,
+    "trend": "increasing"
+  }
+}

@@ -1,0 +1,107 @@
+name: Synthesiser Eval
+
+# Runs on PRs that touch the agent code or eval harness.
+# Job 1: mocked unit tests (always runs, no secrets needed).
+# Job 2: live eval against golden fixtures (requires ANTHROPIC_API_KEY secret;
+#         skips gracefully if the secret is absent).
+#
+# To run the live eval on a PR, add the secret ANTHROPIC_API_KEY to the repo's
+# Actions secrets (Settings → Secrets and variables → Actions → New repository secret).
+# Without it, job 2 exits 0 with a "skipped" message — the PR is not blocked.
+# With it, job 2 runs numeric_guard + faithfulness and fails if a threshold is breached.
+
+on:
+  pull_request:
+    paths:
+      - "backend/agents/**"
+      - "backend/eval/**"
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Job 1: pytest unit tests — mocked, no live API, always runs.
+  # ---------------------------------------------------------------------------
+  unit-tests:
+    name: Unit tests (mocked)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run mocked eval + synthesiser unit tests
+        run: pytest tests/test_eval.py tests/test_synthesiser.py -v
+
+  # ---------------------------------------------------------------------------
+  # Job 2: live eval against golden fixtures.
+  # Skips gracefully (exit 0) when ANTHROPIC_API_KEY is absent.
+  # Fails the build when a threshold is breached and the key IS present.
+  # ---------------------------------------------------------------------------
+  live-eval:
+    name: Live eval scorecard
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    defaults:
+      run:
+        working-directory: backend
+
+    # The eval only needs the golden fixtures (checked into the repo) and the API key.
+    # No live DB is required — golden fixtures are static JSON.
+    env:
+      DATABASE_URL: postgresql://prism:prism@localhost:5433/prism
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check for API key
+        id: key-check
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "has_key=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_key=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run numeric-only eval (no key needed)
+        if: steps.key-check.outputs.has_key == 'false'
+        run: |
+          echo "skipped: no ANTHROPIC_API_KEY — faithfulness gate not evaluated."
+          echo "Running numeric_guard only (free, deterministic)."
+          python -m eval.run_eval --numeric-only --golden-dir eval/golden
+          # numeric_guard violations are threshold-gated; exit 1 if any found.
+
+      - name: Run full eval (numeric + faithfulness)
+        if: steps.key-check.outputs.has_key == 'true'
+        run: |
+          python -m eval.run_eval --golden-dir eval/golden
+          # run_eval exits 1 if any threshold is breached.
+
+      - name: Upload eval results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: backend/eval/results/
+          retention-days: 30

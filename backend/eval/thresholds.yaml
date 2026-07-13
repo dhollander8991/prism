@@ -1,0 +1,14 @@
+# PRISM Synthesiser Eval Thresholds
+# Modify these when the model or prompts change; check the rationale before relaxing.
+
+# Fraction of findings the judge rates "supported" (not partially_supported or unsupported).
+# 0.90 = at most 1 in 10 findings can have unsupported specifics.
+faithfulness_rate: 0.90
+
+# Fraction of findings-with-evidence that cite at least one id outside the shown sample.
+# 0.02 = at most 1 in 50 findings may have a hallucinated citation.
+hallucinated_citation_rate: 0.02
+
+# Absolute count of numeric tokens in claims/actions not supported by cited text or stats.
+# Zero-tolerance: any invented number is a correctness bug.
+numeric_guard_violations: 0

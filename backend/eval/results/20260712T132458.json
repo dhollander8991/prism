@@ -1,0 +1,1163 @@
+{
+  "timestamp": "20260712T132458",
+  "golden_dir": "eval/golden",
+  "numeric_guard": {
+    "total_findings_checked": 137,
+    "total_actions_checked": 106,
+    "total_tokens_with_violations": 7,
+    "unique_clusters_with_violations": 4
+  },
+  "numeric_violations": [
+    {
+      "cluster_id": "cluster_29",
+      "token": "70%",
+      "where": "claim",
+      "claim": "iPad users in educational settings (students, teachers) represent a significant affected segment, with one user estimating 60-70% of students have writable devices"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "token": "1 month",
+      "where": "claim",
+      "claim": "Users report losing critical time-sensitive data including exam materials due within 2 days, university lecture notes 1 month before finals, and multi-year work spanning 3+ years"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "token": "3+ years",
+      "where": "claim",
+      "claim": "Users report losing critical time-sensitive data including exam materials due within 2 days, university lecture notes 1 month before finals, and multi-year work spanning 3+ years"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "token": "18",
+      "where": "claim",
+      "claim": "18 users rated the app 1-2 stars specifically citing iPad keyboard issues"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "token": "43%",
+      "where": "claim",
+      "claim": "21 reports originated from Canada, representing 43% of the 49 total items in this theme"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "token": "2021-2026",
+      "where": "action",
+      "claim": "Immediately investigate authentication flow for data loss bug, prioritizing Canadian and British user sessions from 2021-2026 timeframe"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "token": "2.1",
+      "where": "action",
+      "claim": "Conduct accessibility audit of mobile app against WCAG 2.1 AA text scaling requirements"
+    }
+  ],
+  "hallucinated_citation_rate": 0.0,
+  "hallucinated_citation_count": 0,
+  "total_with_evidence": 137,
+  "churn_distribution": {
+    "medium": 8,
+    "none": 2,
+    "high": 7,
+    "low": 5
+  },
+  "priority_distribution": {
+    "P1": 8,
+    "P3": 2,
+    "P2": 9,
+    "P0": 3
+  },
+  "faithfulness": {
+    "total": 137,
+    "evaluated": 128,
+    "supported": 99,
+    "partially_supported": 17,
+    "unsupported": 12,
+    "errors": 9,
+    "error_rate": 0.0657,
+    "faithfulness_rate": 0.7734375,
+    "total_input_tokens": 71257,
+    "total_output_tokens": 10593,
+    "cost_usd": 0.3727,
+    "latency_seconds": 82.26
+  },
+  "faithfulness_details": [
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Users report that AI features now dominate the homepage and primary interface, replacing customizable layouts they previously created",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Users cannot disable or opt-out of AI feature visibility, with persistent 'Ask AI' prompts appearing throughout the interface",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Multiple users report degraded search performance and increased app slowness attributed to AI integration",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Long-time users are actively migrating to competing platforms specifically due to forced AI features",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Users perceive aggressive upselling of paid AI features as spam that interferes with their workflow",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_30",
+      "claim": "Users consistently praise Notion's versatility for organizing multiple life domains (work, school, personal projects, budgeting, recipes)",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_30",
+      "claim": "Multiple users report improved academic performance and productivity after adopting Notion",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_30",
+      "claim": "Learning curve exists but users find value once they master the app's features",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Users report the app crashes immediately on launch or fails to open, particularly after updates",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Users are stuck in an uninterruptible onboarding tutorial that prevents app access",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Recent updates introduce new crashes and workflow-breaking bugs on mobile",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "App crashes during active use, causing work loss and productivity disruption",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Users cannot access app support because support links open the crashing app",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Apple Pencil handwriting input is broken or non-functional for users attempting to write text, with reports of text not appearing, missing spaces between words, or writing not registering at all",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Users expect native inking/drawing features to annotate diagrams and papers, explicitly comparing the app unfavorably to GoodNotes and Notability which offer this functionality",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Apple Pencil interaction behavior is erratic, including unintended typing on wrong lines, scrolling triggering text input, and UI controls requiring multiple taps to activate",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Apple Pencil Scribble feature (system-level handwriting recognition) is reported as broken",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "iPad users in educational settings (students, teachers) represent a significant affected segment, with one user estimating 60-70% of students have writable devices",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Users cannot complete editing workflows without force-closing the iOS app, with freezing occurring during template editing, page building, and typing",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states users 'cannot complete editing workflows' - the sources describe disruptions and frustrations but do not explicitly state complete inability to finish workflows",
+        "The claim specifies 'force-closing' as necessary - sources mention 'manually close' (Review 1) and 'close out and reopen' (Review 3) but don't use the specific term 'force-closing'",
+        "The claim specifies 'typing' as a context where freezing occurs - no source explicitly mentions freezing during typing specifically"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "iPad app exhibits severe lag and unresponsiveness, with users reporting deleted work and inability to select items correctly",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Pages refresh repeatedly during modification, preventing users from scrolling or making changes to databases and lists",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Performance issues affect both free and paid subscription users across iPhone and iPad devices",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Users report progressively worsening performance over time, with scrolling lockups occurring even on simple pages",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Search functionality triggers crashes on mobile",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Performance issues span multiple iOS versions and device generations, including iPhone 13 mini, 8th gen iPad, iPhone 17 Pro Max on iOS 26.3",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Users experience unexpected logout events that trigger complete loss of all pages, notes, and workspaces upon re-authentication",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Lost data is not present in trash functionality and cannot be recovered by support team",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "Cannot be recovered by support team - not explicitly stated in source reviews"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "App updates appear to correlate with unexpected logout and subsequent data loss events",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim uses plural 'events' suggesting multiple documented occurrences, but only one review is provided",
+        "The claim states updates 'appear to correlate' which implies a pattern across multiple cases, but the source only describes one user's experience",
+        "The claim specifies 'unexpected logout' but the review mentions being 'asked to make an account' which suggests a deliberate prompt rather than an unexpected logout"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Users report losing critical time-sensitive data including exam materials due within 2 days, university lecture notes 1 month before finals, and multi-year work spanning 3+ years",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "25 of 29 reports are 1-star reviews, concentrated in Canada (11 reports) and Great Britain (11 reports)",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "The claim states '25 of 29 reports' but only 5 reviews are provided in the source",
+        "The claim states reviews are '1-star' but no star ratings are shown in the source reviews",
+        "The claim states '11 reports' from Canada but no geographic location information appears in any source review",
+        "The claim states '11 reports' from Great Britain but no geographic location information appears in any source review",
+        "All specific numbers in the claim (25, 29, 11, 11) cannot be verified from the provided source reviews"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Users report being prompted to pay for premium to access version history after data loss",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users report the mobile app directly ports desktop UI without mobile optimization, causing usability problems",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "New users struggle with onboarding and navigation, requiring external resources like YouTube to learn basic functionality",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users cannot perform basic mobile operations like copy/paste and name changes, forcing them to use desktop",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users actively prefer or exclusively use the desktop version due to mobile app limitations",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users report abandoning the product entirely due to mobile-only usage constraints",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "No reviews explicitly state they abandoned the product due to 'mobile-only usage constraints'",
+        "Review 1 mentions deleting due to difficulty with copy/paste functionality, not mobile-only constraints",
+        "Review 2 mentions downloading other apps due to complexity, not mobile-only usage limitations",
+        "Review 3 mentions desktop might be easier and criticizes the phone app experience, but does not report abandoning the product entirely",
+        "The claim specifically asserts 'mobile-only usage constraints' as the reason for abandonment, but no review describes being constrained to mobile-only usage"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Users cannot see what they are typing because the viewport auto-scrolls or jumps to hide the active input area",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "The cursor appears in the wrong position or does not appear at all when users tap to place it",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Text input becomes completely disabled, requiring users to force-close and restart the app to regain typing functionality",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Scrolling triggers unwanted viewport jumps that reposition users to unintended page locations",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "External keyboard input does not work correctly on mobile, forcing users to use on-screen keyboard",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Switching input methods (stylus to finger) triggers the bug that prevents further text input",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Users report payment processed but subscription not recognized, blocking access to paid features",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Mobile app subscription does not transfer to web application, requiring users to cancel and resubscribe",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Users cannot access billing or cancellation functionality from mobile app",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Users report continued billing after cancellation",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Support requires screen recording proof of cancellation to process refund disputes",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Support is unresponsive or uses AI chat that does not resolve billing issues",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim specifically mentions 'billing issues' but the source reviews describe broader support problems including access issues, subscription problems, and service delivery failures, not exclusively billing disputes",
+        "The claim states support 'uses AI chat' but only Review 1 mentions 'AI chat' and does not specify this is the exclusive or primary support method",
+        "The claim implies AI chat is used broadly for support, but only one of three reviews mentions AI chat at all"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Cancellation flow captures additional payment during retention attempt",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states payment was captured 'during retention attempt' but the source indicates payment was taken 'through a flow to try and stop me cancelling' - while similar, the source doesn't explicitly confirm this was a retention attempt specifically",
+        "The claim uses the term 'additional payment' but the source doesn't specify if this was an additional/extra payment versus a regular payment processed during the cancellation flow"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "App Store subscription pricing differs from web pricing, causing user confusion",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Users experience complete loss of access to their content when internet connectivity is unavailable or when Notion servers are down",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Users report data loss when working offline, with content disappearing upon reconnection",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "The absence of offline mode is characterized as a dealbreaker causing users to abandon Notion despite appreciating other features",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Users express frustration that offline access remains unaddressed despite being one of the most requested features for multiple years",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Offline access limitations create problems in specific use cases including travel, areas with poor connectivity, and during server outages",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Template search on iPad causes UI breakage preventing users from viewing or opening templates after search",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Keyboard remains visible during template browsing on iPad, blocking template scroll and navigation",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Template duplication and editing functionality fails on iPad, with edits reverting to original version",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "Specific mention of 'iPad' as the device where the issue occurs"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Template addition triggers crashes or glitches preventing workflow completion",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "UI element positioning breaks on iPad with AI button misplaced to center-left of screen",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states the AI button is misplaced to 'center-left' but the source says it moves to 'just slightly left of the middle of the screen' (which is more accurately center-slightly-left, not distinctly center-left)"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Sign-in links create infinite loops that return users to the sign-in page without granting access",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Password reset functionality fails, with reset links reported as 'out of use' or looping back to sign-in",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Users lose access to paid subscriptions and cannot retrieve data after being logged out",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim uses plural 'Users' suggesting multiple affected users, but only 3 individual reviews are provided",
+        "The claim states users 'cannot retrieve data' as an absolute, but Review 1 indicates uncertainty ('can't remember password') rather than confirmed permanent data loss",
+        "Review 2 describes being 'logged out' but doesn't mention having a paid subscription",
+        "Review 3 mentions login issues but doesn't explicitly state they had a paid subscription or lost access to paid features"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Google and Apple ID sign-in methods fail with errors including 'check internet connection' and non-functional buttons",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "App automatically logs users out repeatedly, sometimes within seconds of successful authentication",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Users report creating unintended duplicate accounts when attempting to sign in, losing access to original data",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Authentication issues concentrated in GB (15 users), CA (14 users), and AU (13 users)",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "Authentication issues concentrated in GB (15 users)",
+        "Authentication issues concentrated in CA (14 users)",
+        "Authentication issues concentrated in AU (13 users)",
+        "No geographic location information present in source reviews",
+        "No user count data (15, 14, 13 users) present in source reviews",
+        "No country codes (GB, CA, AU) mentioned in source reviews"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "External keyboard input breaks after 2-3 characters on iPad, rendering the app unusable for typing",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The specific character count '2-3 characters' is only mentioned in Review 1, not consistently across all source reviews",
+        "Review 2 describes the issue as 'pages no longer allow me to type' and spacebar/arrow key problems, but does not specify a 2-3 character limit before breaking",
+        "Review 3 describes being 'unable to type' but does not mention any specific character count before the keyboard stops working"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Copy and paste functionality is broken on iPad, unlike on desktop",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Screen jumps or scrolls during keyboard input, obscuring typed content",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Typing lag and unresponsiveness affects iPad editing experience across multiple years",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states the issue affects 'multiple years' but the source only provides specific evidence for 2017 (iPad 2017 version) and 4th gen iPad Pro, without establishing a clear multi-year timespan of the problem occurring"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Users report Magic Keyboard and Smart Keyboard compatibility issues spanning years without resolution",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "14 reports originate from GB, 9 from AU, indicating geographic concentration outside US market",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "The claim states '14 reports originate from GB' but none of the three source reviews indicate they are from GB (Great Britain/UK)",
+        "The claim states '9 from AU' (Australia) but none of the three source reviews indicate they are from Australia",
+        "The specific numbers '14' and '9' do not appear anywhere in the source reviews",
+        "No geographic information (country codes, locations, or geographic concentration data) is present in any of the source reviews",
+        "The claim refers to 'geographic concentration outside US market' but the source reviews contain no geographic metadata or location information whatsoever"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "18 users rated the app 1-2 stars specifically citing iPad keyboard issues",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "The claim states '18 users' but the source contains only 4 reviews",
+        "The claim states users 'rated the app 1-2 stars' but the source reviews do not include star ratings",
+        "Only 2 reviews (Review 2 and Review 3) specifically cite iPad keyboard issues as the primary problem; Review 1 mentions general iPadOS issues without keyboard focus, and Review 4 focuses on slowness/unresponsiveness without mentioning keyboard problems"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Some users resort to using browser version or competitor apps due to iPad app keyboard failures",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Mobile calendar view lacks month view and task visibility, forcing users to rely on desktop or external apps",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Calendar event creation fails to save on iPhone, blocking core workflow",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Navigation patterns in mobile calendar require excessive taps, with back button returning users to month view instead of day view",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Calendar sync with Apple Calendar and Google Calendar is broken or absent on iPad and mobile, forcing users to desktop",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states users are 'forced to desktop' but the reviews do not mention desktop as a solution or requirement",
+        "The claim specifically mentions 'iPad and mobile' together, but only Review 1 specifically discusses iPad issues; the other reviews don't specify device types"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "New users report steep learning curve and lack of onboarding guidance for calendar setup",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Desktop calendar view praised for showing events without clicking, while mobile shows only dots",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "App stability issues reported with auto-refresh and glitching during calendar use",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "11 users report app crashes or becomes completely unresponsive when working with large notes, requiring force-quit and relaunch",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The specific count of '11 users' - only 11 source reviews are provided, but not all 11 explicitly report the exact issue described in the claim",
+        "The specific requirement to 'force-quit and relaunch' - only Review 1 explicitly mentions 'force quit', not all 11 reviews mention this specific recovery action"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Users report pages fail to open 90% of the time, requiring multiple click attempts or app relaunches to access content",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Users experience cursor disappearance and unresponsive UI after typing, preventing further note editing without force-quit",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Issue affects paid users on higher-tier plans, creating revenue risk beyond basic churn",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "affects users on 'higher-tier plans' (plural) - only one user on 'higher plan' (singular) mentioned",
+        "'revenue risk beyond basic churn' - not mentioned or implied in source",
+        "specific characterization of risk as 'beyond basic churn' is an analytical interpretation not present in source"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Problem manifests as page load times of 10-15 seconds before crashes occur",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states page load times occur 'before crashes occur', implying crashes happen after the 10-15 second load times. Review 1 mentions 10-15 second load times but does not mention crashes at all. Review 2 mentions both long load times and crashes but does not provide the specific '10-15 seconds' timeframe or establish that crashes occur after this specific duration."
+      ],
+      "confidence": 0.75
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Issue affects both iOS app and web browser, indicating potential backend or data model problem rather than platform-specific bug",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim specifies 'iOS app' but the source only mentions 'web browser' without confirming the platform of the app (could be iOS, Android, or other)",
+        "The claim's inference about 'backend or data model problem rather than platform-specific bug' is an interpretation not stated in the source review"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "App becomes unresponsive after 10-15 minutes of editing, requiring force-close and restart",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "15 users gave 1-star reviews, with 12 from US/GB/CA markets",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "The claim states '15 users gave 1-star reviews' but only 13 reviews are provided in the source",
+        "The claim specifies '12 from US/GB/CA markets' but the source reviews contain no geographic or market information",
+        "No star ratings are visible in any of the provided reviews",
+        "No information about user location, country codes, or markets appears in the source text"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Multiple users report text is too small to read or edit comfortably on mobile",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Users report app frequently times out, signs them out automatically, and crashes",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Touch targets are misaligned for checkboxes and app extends beyond safe zone in landscape mode",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Screen scrolls up automatically when tagging users with @, obscuring typed content",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Keyboard toolbar disappears making it impossible to hide keyboard or continue editing",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Tablet and Apple Pencil support described as incompatible or non-functional",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Users cannot zoom, print, or adjust system font size in iOS app",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Feature parity issues: mobile lacks account management and other desktop features",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Gallery view photo attachments to card faces have persistent glitches across views",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "No iOS password manager integration or biometric login options available",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "45 users report the iOS/iPad app crashes, freezes, or becomes unresponsive, making it unusable",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "The claim specifies '45 users' but only 5 reviews are provided in the source",
+        "The exact number '45' does not appear anywhere in the source reviews"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users report the app auto-refreshes every 5-10 seconds, interrupting typing and reading workflows",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "iPad-specific issues reported include screen freezing, button presses not registering, and app not opening at all",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users report database views trigger infinite crash-reload loops on mobile",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users explicitly state they love desktop Notion but cannot use the mobile app, indicating platform-specific regression",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "14 users from GB, 14 from CA, 9 from US, and 8 from AU affected, indicating widespread geographic impact",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "14 users from GB - no geographic data in source reviews",
+        "14 users from CA - no geographic data in source reviews",
+        "9 users from US - no geographic data in source reviews",
+        "8 users from AU - no geographic data in source reviews",
+        "Total of 45 users - no user count mentioned in source reviews",
+        "Any specific country codes or geographic locations - source reviews contain no geographic information"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users report needing to repeatedly delete/reinstall the app or restart their devices as temporary workarounds",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Issues persist across multiple app versions and years, with reports spanning 2021 to 2026",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states reports span from 2021 to 2026, but only one review mentions a year (2026 in Review 3)",
+        "No evidence in the source reviews of reports from 2021, 2022, 2023, 2024, or 2025",
+        "The claim of 'multiple app versions' is partially supported (Review 4 mentions updating to most recent version, Review 2 mentions 'new update') but the timespan of '2021 to 2026' spanning multiple years is not substantiated"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Users cannot adjust font size on mobile apps, creating accessibility barriers for visually impaired users",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Mobile app does not support iOS Dynamic Type for system-level font scaling",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Font size issues are particularly acute on iPad 12.9 inch where default text appears too small",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Users find Chinese characters especially difficult to read at current mobile font sizes",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Users report the workaround of increasing system-wide font size makes other apps unusable",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "21 reports originated from Canada, representing 43% of the 49 total items in this theme",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "No mention of '21 reports' anywhere in the source reviews",
+        "No mention of 'Canada' or any geographic origin in the source reviews",
+        "No mention of '43%' percentage in the source reviews",
+        "No mention of '49 total items' in the source reviews",
+        "No mention of any 'theme' being discussed in the source reviews",
+        "The source reviews only contain 4 individual app reviews about font size/customization issues, with no aggregate statistics or geographic data"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "iPad app does not support columns, forcing users to desktop despite preferring iPad as primary device",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Multi-column pages render poorly on iPad with content squeezed or cut off despite sufficient screen space",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Drag-and-drop functionality for moving items between columns is broken or extremely difficult on iPad",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "iPad app lacks widget support that users expect",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Forward slash shortcuts available on web are missing from iOS app, degrading productivity",
+      "verdict": "error",
+      "unsupported_details": [],
+      "confidence": 0.0
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Database management tasks like deletion and table conversion are confusing or broken on iPad",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Cursor disappears during typing on iPad, preventing text editing and selection",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Multi-tab support is absent on iPad despite being available on desktop",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Apple Pencil support is described as horrendous and effectively non-existent",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "iPad app lacks features available on desktop including slash commands, inline equations, and calendar",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Users report the iPad app is laggy, slow, and glitchy during basic operations",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Users describe the iPad experience as effectively unusable or view-only",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "14 users report the app becomes stuck on a loading screen, preventing access to any content",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "The claim states '14 users report' but only 5 source reviews are provided",
+        "No evidence in the source reviews supports the specific number '14'"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Multiple users explicitly link the loading screen issue to recent app updates",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Standard troubleshooting steps including reinstallation, device restart, and force closing fail to resolve the issue",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Users report the desktop version works correctly while the mobile app is broken",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "One user reports the app works correctly once after reinstall then breaks again",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Issue affects users across Canada (5), United Kingdom (4), United States (3), and Australia (2)",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "Canada (5) - no mention of Canada or count of 5 users in source reviews",
+        "United Kingdom (4) - no mention of United Kingdom or count of 4 users in source reviews",
+        "United States (3) - no mention of United States or count of 3 users in source reviews",
+        "Australia (2) - no mention of Australia or count of 2 users in source reviews",
+        "No geographic information of any kind appears in the source reviews",
+        "The specific numeric distribution (5, 4, 3, 2) is completely absent from source"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "4 users report app crashes, freezing, or infinite refresh issues when notes contain more text",
+      "verdict": "unsupported",
+      "unsupported_details": [
+        "The claim states '4 users report' but only 2 source reviews are provided",
+        "The specific count of '4 users' cannot be verified from the given source material"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "4 users explicitly request Russian language support, with one user stating lack of Russian language prevents purchase",
+      "verdict": "partially_supported",
+      "unsupported_details": [
+        "The claim states '4 users' but only 3 reviews request Russian language support (Reviews 1, 2, and 3)",
+        "Review 4 is a positive review praising the app and does not request Russian language support",
+        "The claim states 'one user stating lack of Russian language prevents purchase' but Review 1 suggests adding Russian language to earn more money and mentions one-time purchase, not that lack of Russian prevents their own purchase"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "2 users report Turkish language support is missing and cite this as reason for not purchasing",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "1 user requests Apple Pencil scribble feature integration and reports language input switching issues",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "1 user reports forced AI button placement disrupts interface cleanliness and cannot be disabled",
+      "verdict": "supported",
+      "unsupported_details": [],
+      "confidence": 0.95
+    }
+  ]
+}

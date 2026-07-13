@@ -1,0 +1,1736 @@
+{
+  "findings": [
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Users report that AI features now dominate the homepage and primary interface, replacing customizable layouts they previously created",
+      "evidence_item_ids": [
+        "5cbc5333-16d0-4148-b028-18a123455cc4",
+        "e9301598-72dc-4bf7-b89c-276d98a6b041"
+      ]
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Users cannot disable or opt-out of AI feature visibility, with persistent 'Ask AI' prompts appearing throughout the interface",
+      "evidence_item_ids": [
+        "f246d9bb-be94-47f0-b6ff-e0e866d2ac2b",
+        "e9301598-72dc-4bf7-b89c-276d98a6b041",
+        "2bf79a45-962f-4402-8d78-e30f2891e24a"
+      ]
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Multiple users report degraded search performance and increased app slowness attributed to AI integration",
+      "evidence_item_ids": [
+        "5e656a19-d0df-4eb5-81d2-7daa99a94a85",
+        "6bc257aa-fa86-4d06-ba91-b4f0ec685fcb"
+      ]
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Long-time users are actively migrating to competing platforms specifically due to forced AI features",
+      "evidence_item_ids": [
+        "f246d9bb-be94-47f0-b6ff-e0e866d2ac2b",
+        "fd5623c6-2866-4052-80b8-00344eb3c9c6",
+        "5c21972c-8e3e-4d8a-aa2a-8a4b9ebab060"
+      ]
+    },
+    {
+      "cluster_id": "cluster_5",
+      "claim": "Users perceive aggressive upselling of paid AI features as spam that interferes with their workflow",
+      "evidence_item_ids": [
+        "5e656a19-d0df-4eb5-81d2-7daa99a94a85",
+        "c533f94e-bda1-419e-b49c-9408984fa3f4"
+      ]
+    },
+    {
+      "cluster_id": "cluster_30",
+      "claim": "Users consistently praise Notion's versatility for organizing multiple life domains (work, school, personal projects, budgeting, recipes)",
+      "evidence_item_ids": [
+        "8c482245-b060-40cf-b78b-384b0b88a62f",
+        "f3777954-4933-4ad2-b9f2-f7da0ff2cb95",
+        "727d3ffd-ddd1-4add-82da-3b243d8bfe9b"
+      ]
+    },
+    {
+      "cluster_id": "cluster_30",
+      "claim": "Multiple users report improved academic performance and productivity after adopting Notion",
+      "evidence_item_ids": [
+        "9699d217-f059-49d9-9e9b-4d4ca89b2787",
+        "e577e38b-5408-4d5f-9322-f0f69e79d8b4",
+        "8e08b409-eb51-4d06-8ea5-43dfd2c8787b"
+      ]
+    },
+    {
+      "cluster_id": "cluster_30",
+      "claim": "Learning curve exists but users find value once they master the app's features",
+      "evidence_item_ids": [
+        "5074e3f2-7473-4137-adda-82037be242b8",
+        "bcd03f29-016e-48bc-afca-70c533468bd5",
+        "eb1963b9-e939-4fb2-9281-bcd3f4809b5f"
+      ]
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Users report the app crashes immediately on launch or fails to open, particularly after updates",
+      "evidence_item_ids": [
+        "5f867d20-3391-4804-9a8d-034531cd4bce",
+        "23a3607a-1fd7-4225-bc22-cfbf82a84554",
+        "3def7852-e607-4b31-b0a9-db12b8ba12a2",
+        "00849d5f-5367-4b4d-bc34-22a027d1a4f7",
+        "fe3feee5-d4cc-44da-9085-7274b895981b",
+        "86e7d847-2403-475e-9573-383a28b701b1"
+      ]
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Users are stuck in an uninterruptible onboarding tutorial that prevents app access",
+      "evidence_item_ids": [
+        "83ac5572-0816-4afe-8c7e-eb0288361274",
+        "f42ec9c4-3e70-463c-9bb1-533de6cf0986"
+      ]
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Recent updates introduce new crashes and workflow-breaking bugs on mobile",
+      "evidence_item_ids": [
+        "6bfc3ca2-0173-40cd-880b-5ec4ce37944c",
+        "6d41e737-f381-4aeb-ac13-7148b54d67fd",
+        "7cddc657-bbcc-44c3-a6ae-ad0cb529979f"
+      ]
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "App crashes during active use, causing work loss and productivity disruption",
+      "evidence_item_ids": [
+        "ff799f42-16d2-4da2-8274-867a251e284e",
+        "ced40887-ed15-48aa-80d2-3e63385dee50",
+        "e745211b-0a51-45e1-b346-963d731f450c"
+      ]
+    },
+    {
+      "cluster_id": "cluster_24",
+      "claim": "Users cannot access app support because support links open the crashing app",
+      "evidence_item_ids": [
+        "83ac5572-0816-4afe-8c7e-eb0288361274",
+        "b2f59148-032d-4a12-aa1e-cef34614ec54"
+      ]
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Apple Pencil handwriting input is broken or non-functional for users attempting to write text, with reports of text not appearing, missing spaces between words, or writing not registering at all",
+      "evidence_item_ids": [
+        "20a2ce8d-dfa3-4c10-996a-ec8c2bd5d384",
+        "a5e6bef8-705a-4713-b956-150f3131b182",
+        "0094207a-e543-4a1d-a477-a92b29498ebf",
+        "76d8f21c-952b-4d88-813e-065a261beb85"
+      ]
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Users expect native inking/drawing features to annotate diagrams and papers, explicitly comparing the app unfavorably to GoodNotes and Notability which offer this functionality",
+      "evidence_item_ids": [
+        "25b71782-8a1a-4f66-bf19-60f0e47ada15",
+        "4ad28d8c-bd91-44d4-a5ec-992d1acf83ec",
+        "f98c50a1-8241-4a8f-b264-2f7a4aa990cd",
+        "797d31ef-c421-48b1-b786-7e9a6dca5892"
+      ]
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Apple Pencil interaction behavior is erratic, including unintended typing on wrong lines, scrolling triggering text input, and UI controls requiring multiple taps to activate",
+      "evidence_item_ids": [
+        "389f3713-1517-4a7a-893f-78188ec36a91",
+        "7235d885-1450-4048-8469-3d71a1c26fdf",
+        "0466d148-4c77-4c27-9e26-46110e3b98d4"
+      ]
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "Apple Pencil Scribble feature (system-level handwriting recognition) is reported as broken",
+      "evidence_item_ids": [
+        "b87fc3df-239a-4b78-a3b9-9153a7a39980"
+      ]
+    },
+    {
+      "cluster_id": "cluster_29",
+      "claim": "iPad users in educational settings (students, teachers) represent a significant affected segment, with one user estimating 60-70% of students have writable devices",
+      "evidence_item_ids": [
+        "4ad28d8c-bd91-44d4-a5ec-992d1acf83ec"
+      ]
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Users cannot complete editing workflows without force-closing the iOS app, with freezing occurring during template editing, page building, and typing",
+      "evidence_item_ids": [
+        "01ba18b8-a005-48ea-90bb-e37833eba6da",
+        "2b650c64-2997-4be7-b682-e48d355b557c",
+        "86d081f6-7d7b-445c-8c75-834387867c8f",
+        "db70c88d-3f69-4590-883b-9cb17e88cc48",
+        "6b446df6-bd29-45a9-ad6a-d162086516c7"
+      ]
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "iPad app exhibits severe lag and unresponsiveness, with users reporting deleted work and inability to select items correctly",
+      "evidence_item_ids": [
+        "2b650c64-2997-4be7-b682-e48d355b557c",
+        "25553c54-9425-4459-bc89-1e9daa1813a3",
+        "dd5f087f-6146-4ad3-859b-221769f693ae",
+        "a68d2af2-ece2-4a74-ab97-7088297f7507"
+      ]
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Pages refresh repeatedly during modification, preventing users from scrolling or making changes to databases and lists",
+      "evidence_item_ids": [
+        "db70c88d-3f69-4590-883b-9cb17e88cc48",
+        "1b3aeeb8-83a2-43f4-81be-209fc3a4a233"
+      ]
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Performance issues affect both free and paid subscription users across iPhone and iPad devices",
+      "evidence_item_ids": [
+        "86d081f6-7d7b-445c-8c75-834387867c8f",
+        "01ba18b8-a005-48ea-90bb-e37833eba6da",
+        "25553c54-9425-4459-bc89-1e9daa1813a3"
+      ]
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Users report progressively worsening performance over time, with scrolling lockups occurring even on simple pages",
+      "evidence_item_ids": [
+        "ffa9618d-1c76-47ac-94bd-65e3c3851fd5",
+        "44d6db12-5547-4591-bd16-a9d2a040109b",
+        "36a969b5-f734-42b0-97e6-59eb149152a3"
+      ]
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Search functionality triggers crashes on mobile",
+      "evidence_item_ids": [
+        "36626e39-e6d4-4d31-bcfa-f0baf8d3f04f"
+      ]
+    },
+    {
+      "cluster_id": "cluster_18",
+      "claim": "Performance issues span multiple iOS versions and device generations, including iPhone 13 mini, 8th gen iPad, iPhone 17 Pro Max on iOS 26.3",
+      "evidence_item_ids": [
+        "01ba18b8-a005-48ea-90bb-e37833eba6da",
+        "25553c54-9425-4459-bc89-1e9daa1813a3"
+      ]
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Users experience unexpected logout events that trigger complete loss of all pages, notes, and workspaces upon re-authentication",
+      "evidence_item_ids": [
+        "874f9e90-45a8-4293-a5db-b246cd6e43a5",
+        "5e194e63-8604-465a-9c82-41b91129f6dd",
+        "137889b6-e8af-4495-97a0-375f57a3d28b",
+        "9647ada0-b3b5-4e53-bcc1-9a48d42d3a5b",
+        "9c5438a7-962f-4926-a633-3fd4f3de684e"
+      ]
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Lost data is not present in trash functionality and cannot be recovered by support team",
+      "evidence_item_ids": [
+        "30b50d62-92ae-46e8-ba8b-b0f025d4ebea",
+        "1d146ad5-ee17-4bbe-af9b-dcea34b3fea7",
+        "91a23e12-6e89-4046-b969-17d49f292792",
+        "03bdc004-4f4e-41dc-bdc0-4a73296006d4"
+      ]
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "App updates appear to correlate with unexpected logout and subsequent data loss events",
+      "evidence_item_ids": [
+        "8da1a30e-2104-4207-8e45-b3a8ac8f4572"
+      ]
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Users report losing critical time-sensitive data including exam materials due within 2 days, university lecture notes 1 month before finals, and multi-year work spanning 3+ years",
+      "evidence_item_ids": [
+        "a9d3e1a2-af2b-4cb1-ad01-b9e2fd0ee859",
+        "137889b6-e8af-4495-97a0-375f57a3d28b",
+        "1d146ad5-ee17-4bbe-af9b-dcea34b3fea7"
+      ]
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "25 of 29 reports are 1-star reviews, concentrated in Canada (11 reports) and Great Britain (11 reports)",
+      "evidence_item_ids": [
+        "874f9e90-45a8-4293-a5db-b246cd6e43a5",
+        "5e194e63-8604-465a-9c82-41b91129f6dd",
+        "137889b6-e8af-4495-97a0-375f57a3d28b",
+        "8da1a30e-2104-4207-8e45-b3a8ac8f4572",
+        "03bdc004-4f4e-41dc-bdc0-4a73296006d4"
+      ]
+    },
+    {
+      "cluster_id": "cluster_12",
+      "claim": "Users report being prompted to pay for premium to access version history after data loss",
+      "evidence_item_ids": [
+        "a9d3e1a2-af2b-4cb1-ad01-b9e2fd0ee859",
+        "9647ada0-b3b5-4e53-bcc1-9a48d42d3a5b"
+      ]
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users report the mobile app directly ports desktop UI without mobile optimization, causing usability problems",
+      "evidence_item_ids": [
+        "e6dcdc28-f03d-4bc9-95af-77855c0bb108",
+        "6d4c983e-5a5e-4c0f-8077-431a102eafa0",
+        "7b1b7e26-5b2a-4175-92cd-9bad7e8e14a0"
+      ]
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "New users struggle with onboarding and navigation, requiring external resources like YouTube to learn basic functionality",
+      "evidence_item_ids": [
+        "c8bdc389-93af-4eb4-b813-22d248156b1b",
+        "80e373ab-d8af-44ed-88ac-84bf06b30f2b",
+        "56b8a678-2320-46ff-a353-3060e9a7d65a"
+      ]
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users cannot perform basic mobile operations like copy/paste and name changes, forcing them to use desktop",
+      "evidence_item_ids": [
+        "6b8ab7cd-fc0e-4eaa-b638-a696277c7fe8",
+        "7b1b7e26-5b2a-4175-92cd-9bad7e8e14a0",
+        "3f03fa4b-b8bd-4437-b646-a668edc87b37"
+      ]
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users actively prefer or exclusively use the desktop version due to mobile app limitations",
+      "evidence_item_ids": [
+        "29354745-27c9-4ce0-b4b5-d7ca3f43945c",
+        "21d56a6c-5b29-4bd8-a010-710123833ef4",
+        "31932d1e-52f6-47c2-b70a-90c5c0f69c5c"
+      ]
+    },
+    {
+      "cluster_id": "cluster_15",
+      "claim": "Users report abandoning the product entirely due to mobile-only usage constraints",
+      "evidence_item_ids": [
+        "6b8ab7cd-fc0e-4eaa-b638-a696277c7fe8",
+        "80e373ab-d8af-44ed-88ac-84bf06b30f2b",
+        "18c5b65c-dda1-48b8-a0f0-f5a86ab98564"
+      ]
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Users cannot see what they are typing because the viewport auto-scrolls or jumps to hide the active input area",
+      "evidence_item_ids": [
+        "a3a71216-f686-435f-b651-88c1f158e4d8",
+        "398b7109-10be-406f-ba49-91ebe7eea9d7",
+        "cf9631ea-c5d0-423d-a8aa-dafa13d74657"
+      ]
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "The cursor appears in the wrong position or does not appear at all when users tap to place it",
+      "evidence_item_ids": [
+        "cc4c3662-ceec-488e-94d5-69398cd72cf6",
+        "03ec30c0-8164-41ea-bcd1-168f4c3a1495",
+        "987d8d82-665d-4636-8440-dfd3d3e6eb80",
+        "298f83ab-e0cf-492f-905a-e3f715d4187e"
+      ]
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Text input becomes completely disabled, requiring users to force-close and restart the app to regain typing functionality",
+      "evidence_item_ids": [
+        "aede9fc7-492b-46e5-b95b-15f4d1f5667a",
+        "60a4d84d-35e2-44d3-84f1-2693da3c19b9",
+        "01b5efde-ce31-47b3-8045-55a174fb486f",
+        "fe882571-8a8f-4721-902b-7acbe6869738"
+      ]
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Scrolling triggers unwanted viewport jumps that reposition users to unintended page locations",
+      "evidence_item_ids": [
+        "6ea6333f-047c-40bc-92c5-07993ca01029",
+        "03ec30c0-8164-41ea-bcd1-168f4c3a1495"
+      ]
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "External keyboard input does not work correctly on mobile, forcing users to use on-screen keyboard",
+      "evidence_item_ids": [
+        "4f77c280-d318-4338-9cac-db3e3f8f89b1",
+        "6ea6333f-047c-40bc-92c5-07993ca01029"
+      ]
+    },
+    {
+      "cluster_id": "cluster_16",
+      "claim": "Switching input methods (stylus to finger) triggers the bug that prevents further text input",
+      "evidence_item_ids": [
+        "fe882571-8a8f-4721-902b-7acbe6869738"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Users report payment processed but subscription not recognized, blocking access to paid features",
+      "evidence_item_ids": [
+        "d2d152cc-5c10-43d6-97b6-7ffe74e3d313",
+        "90bd0257-5be5-4c19-84ff-2f096d8b3269",
+        "b2dd9fc4-41b5-4033-b496-a88b5510322d",
+        "3a64456d-4895-4fe6-8810-3c3f6372d4b7",
+        "a1963df5-9de9-46fe-bac3-b98bb8718845"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Mobile app subscription does not transfer to web application, requiring users to cancel and resubscribe",
+      "evidence_item_ids": [
+        "702c2eb1-4cb8-4cf7-b06f-9dc2f46bac8e"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Users cannot access billing or cancellation functionality from mobile app",
+      "evidence_item_ids": [
+        "083e0fbe-f298-4dd5-8195-cabd268d412f",
+        "ed90258d-65de-4c40-b436-4de9731a43be"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Users report continued billing after cancellation",
+      "evidence_item_ids": [
+        "ce4120e9-e172-40de-a17b-3dc6c3031003",
+        "6a30a850-65f1-49c7-8f2f-3b93f02388e1"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Support requires screen recording proof of cancellation to process refund disputes",
+      "evidence_item_ids": [
+        "d987f9cb-54c9-4b92-87d5-7ef9da22fd08"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Support is unresponsive or uses AI chat that does not resolve billing issues",
+      "evidence_item_ids": [
+        "ce4120e9-e172-40de-a17b-3dc6c3031003",
+        "a1963df5-9de9-46fe-bac3-b98bb8718845",
+        "b2dd9fc4-41b5-4033-b496-a88b5510322d"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "Cancellation flow captures additional payment during retention attempt",
+      "evidence_item_ids": [
+        "207ba781-1069-4b46-9b18-ec662734e076"
+      ]
+    },
+    {
+      "cluster_id": "cluster_3",
+      "claim": "App Store subscription pricing differs from web pricing, causing user confusion",
+      "evidence_item_ids": [
+        "a7a95c44-4960-48ab-8f1a-289e1c0e92d4"
+      ]
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Users experience complete loss of access to their content when internet connectivity is unavailable or when Notion servers are down",
+      "evidence_item_ids": [
+        "0d479a36-cf09-4976-a9f7-2dd9b2bf528c",
+        "954f442f-447e-4d4c-9df2-a4872052653d",
+        "9983c200-e11e-48b6-b6c8-0b4f35e459f8",
+        "bba8362e-dd00-4efe-8b12-c60cf8cb3885"
+      ]
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Users report data loss when working offline, with content disappearing upon reconnection",
+      "evidence_item_ids": [
+        "bc89401e-acd5-45bc-bbec-a335f20e5377",
+        "13f0248c-04fb-4c1e-a76e-932c9de6b14b",
+        "f6445c6e-b5ba-46cc-ba04-e1a9637a2afb"
+      ]
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "The absence of offline mode is characterized as a dealbreaker causing users to abandon Notion despite appreciating other features",
+      "evidence_item_ids": [
+        "954f442f-447e-4d4c-9df2-a4872052653d",
+        "bd6221ff-b3b2-4baa-8f76-c8af6140cefd",
+        "0778368b-e5f2-4fd9-ac47-77161375e064"
+      ]
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Users express frustration that offline access remains unaddressed despite being one of the most requested features for multiple years",
+      "evidence_item_ids": [
+        "a02c5631-5ebb-43df-add7-fb52e83aa073",
+        "028de572-bbb8-4792-92b7-1a9098363ab2"
+      ]
+    },
+    {
+      "cluster_id": "cluster_9",
+      "claim": "Offline access limitations create problems in specific use cases including travel, areas with poor connectivity, and during server outages",
+      "evidence_item_ids": [
+        "98abb89a-f341-42ef-a9f4-0988f8c58712",
+        "bba8362e-dd00-4efe-8b12-c60cf8cb3885",
+        "15eb8bb0-842d-4315-9f01-5ddc402b0bd7"
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Template search on iPad causes UI breakage preventing users from viewing or opening templates after search",
+      "evidence_item_ids": [
+        "043dbd83-61fc-404c-82c4-71bea80323da",
+        "a742a0d1-2a8b-4b22-9dbb-6d0330e773d6",
+        "aa9708bd-11b5-4ee3-a963-2bfceb66214c",
+        "648723e6-3f25-4fed-811f-8ecc55d391f6"
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Keyboard remains visible during template browsing on iPad, blocking template scroll and navigation",
+      "evidence_item_ids": [
+        "2a394d51-eb61-4d50-b9f3-c523e5146817"
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Template duplication and editing functionality fails on iPad, with edits reverting to original version",
+      "evidence_item_ids": [
+        "44f25b01-1814-41b6-bbee-811f73d656ab",
+        "6bccec98-f33f-41f9-8b9f-8efd920dad17"
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "Template addition triggers crashes or glitches preventing workflow completion",
+      "evidence_item_ids": [
+        "3d7b943d-1d12-45b6-a085-b210c12e59b0",
+        "49505178-3197-4f66-ad56-691cc786f9e1"
+      ]
+    },
+    {
+      "cluster_id": "cluster_7",
+      "claim": "UI element positioning breaks on iPad with AI button misplaced to center-left of screen",
+      "evidence_item_ids": [
+        "043dbd83-61fc-404c-82c4-71bea80323da"
+      ]
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Sign-in links create infinite loops that return users to the sign-in page without granting access",
+      "evidence_item_ids": [
+        "c719bce6-c3c7-4ff6-a7e5-d477ea91d7a6",
+        "7001eff0-8249-4103-bdc1-150402915894",
+        "939721b0-8497-479b-8631-44f85b9722b6"
+      ]
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Password reset functionality fails, with reset links reported as 'out of use' or looping back to sign-in",
+      "evidence_item_ids": [
+        "d717aa9b-74ab-493d-a543-31b6a3038d00",
+        "bb86bb2a-515b-4b98-98d3-9421ed7107a9"
+      ]
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Users lose access to paid subscriptions and cannot retrieve data after being logged out",
+      "evidence_item_ids": [
+        "18948e2d-dec1-48ab-86ac-83623b6118f1",
+        "bc0d6030-42ca-426a-9448-672851d4273c",
+        "cd53dda6-4698-4ac7-a40d-d3bda81bff64"
+      ]
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Google and Apple ID sign-in methods fail with errors including 'check internet connection' and non-functional buttons",
+      "evidence_item_ids": [
+        "98671b35-cbf0-4943-bde3-ac9f3f7db00e",
+        "2edaf0d3-7c9f-4e7f-8d7c-1998d40138e5",
+        "09951800-dc87-4f3c-a1a4-20518d1ffd03"
+      ]
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "App automatically logs users out repeatedly, sometimes within seconds of successful authentication",
+      "evidence_item_ids": [
+        "b5025649-4c0c-4070-a12b-48a1f172fbe8",
+        "77b56257-45dc-4e04-8a51-3fe7734b76f2",
+        "939721b0-8497-479b-8631-44f85b9722b6"
+      ]
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Users report creating unintended duplicate accounts when attempting to sign in, losing access to original data",
+      "evidence_item_ids": [
+        "989f8820-4c46-46f9-861e-6b19ff042c86",
+        "b3bae3e9-7ba4-47be-924e-a6763f3657df"
+      ]
+    },
+    {
+      "cluster_id": "cluster_13",
+      "claim": "Authentication issues concentrated in GB (15 users), CA (14 users), and AU (13 users)",
+      "evidence_item_ids": [
+        "989f8820-4c46-46f9-861e-6b19ff042c86",
+        "7001eff0-8249-4103-bdc1-150402915894",
+        "bb86bb2a-515b-4b98-98d3-9421ed7107a9"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "External keyboard input breaks after 2-3 characters on iPad, rendering the app unusable for typing",
+      "evidence_item_ids": [
+        "27398461-a44c-409f-9905-bed8ced2896c",
+        "05f83e3a-c07d-491a-a4fb-546633f17e5d",
+        "83be3804-8948-4882-ba13-ce9a74b37cf8"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Copy and paste functionality is broken on iPad, unlike on desktop",
+      "evidence_item_ids": [
+        "df01b96d-411d-4f58-982a-277c65d44855",
+        "193ecf79-30df-4b82-9640-d5490ba18285",
+        "f5be44f2-0aad-44d3-81d4-0d3c8a8310bf",
+        "efa09938-8aae-426e-be08-7bc272f4b6d6"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Screen jumps or scrolls during keyboard input, obscuring typed content",
+      "evidence_item_ids": [
+        "f4a3a4ec-c84b-4f9e-a501-45f8d3375ca7",
+        "65f71eb0-deaa-4097-bf4d-39a04049a015",
+        "55b5bf86-8b80-427e-92d8-5e5ad3aed3f5"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Typing lag and unresponsiveness affects iPad editing experience across multiple years",
+      "evidence_item_ids": [
+        "65f71eb0-deaa-4097-bf4d-39a04049a015",
+        "250adbde-d7c1-4b32-b689-7dd4224c9285",
+        "f5be44f2-0aad-44d3-81d4-0d3c8a8310bf"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Users report Magic Keyboard and Smart Keyboard compatibility issues spanning years without resolution",
+      "evidence_item_ids": [
+        "1bb7b364-ac7e-4b93-8abc-7af37be71a03",
+        "7a431f9e-478c-43da-b9fc-ef22ccf32fec",
+        "55b5bf86-8b80-427e-92d8-5e5ad3aed3f5"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "14 reports originate from GB, 9 from AU, indicating geographic concentration outside US market",
+      "evidence_item_ids": [
+        "05f83e3a-c07d-491a-a4fb-546633f17e5d",
+        "83be3804-8948-4882-ba13-ce9a74b37cf8",
+        "27398461-a44c-409f-9905-bed8ced2896c"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "18 users rated the app 1-2 stars specifically citing iPad keyboard issues",
+      "evidence_item_ids": [
+        "b81e7cf2-5ca8-4ee7-b409-8cc3260406c1",
+        "05f83e3a-c07d-491a-a4fb-546633f17e5d",
+        "83be3804-8948-4882-ba13-ce9a74b37cf8",
+        "f5be44f2-0aad-44d3-81d4-0d3c8a8310bf"
+      ]
+    },
+    {
+      "cluster_id": "cluster_34",
+      "claim": "Some users resort to using browser version or competitor apps due to iPad app keyboard failures",
+      "evidence_item_ids": [
+        "7a431f9e-478c-43da-b9fc-ef22ccf32fec",
+        "f5be44f2-0aad-44d3-81d4-0d3c8a8310bf"
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Mobile calendar view lacks month view and task visibility, forcing users to rely on desktop or external apps",
+      "evidence_item_ids": [
+        "de6feb67-9358-4785-9664-3d720a6ae4c8",
+        "6be27bee-823e-41be-af00-8a2ceaa00ccf",
+        "fe206066-6c93-4feb-b0fa-4a6f329e8968"
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Calendar event creation fails to save on iPhone, blocking core workflow",
+      "evidence_item_ids": [
+        "ba9052b0-1bd1-44f8-b82a-59248be9c0c7"
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Navigation patterns in mobile calendar require excessive taps, with back button returning users to month view instead of day view",
+      "evidence_item_ids": [
+        "3b7591dc-eded-407c-b64c-34a5882609ff",
+        "5109bcec-5356-43c0-9517-8b645a7ed31b"
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Calendar sync with Apple Calendar and Google Calendar is broken or absent on iPad and mobile, forcing users to desktop",
+      "evidence_item_ids": [
+        "db49503c-c6e3-4457-ae75-86b25825fe55",
+        "16315e6d-8a01-4472-8c6c-7d1b667070ea",
+        "ca14b7f8-957b-476c-a6da-a97eb7820783"
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "New users report steep learning curve and lack of onboarding guidance for calendar setup",
+      "evidence_item_ids": [
+        "2830e7e5-5918-424b-945a-b40275a087b2",
+        "e7a3a254-73d2-49e1-a141-11a4c706589e",
+        "37544a50-d4c5-4dc6-a244-d0f53074c07f"
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "Desktop calendar view praised for showing events without clicking, while mobile shows only dots",
+      "evidence_item_ids": [
+        "20aaec33-bbcc-4896-a64a-50b9d4033b0c",
+        "fe206066-6c93-4feb-b0fa-4a6f329e8968"
+      ]
+    },
+    {
+      "cluster_id": "cluster_4",
+      "claim": "App stability issues reported with auto-refresh and glitching during calendar use",
+      "evidence_item_ids": [
+        "060e52b8-ed9d-4083-8bac-ca2c88bc57f9"
+      ]
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "11 users report app crashes or becomes completely unresponsive when working with large notes, requiring force-quit and relaunch",
+      "evidence_item_ids": [
+        "5eaefec3-dc38-4d4f-a97c-369e4bbb91ce",
+        "cb6eab89-c0b7-4f73-a006-bd6de35846e4",
+        "993e5421-71e9-48b4-a3dd-4c7859c55f10",
+        "6f828fa4-47da-45b6-8435-d58ad745205f",
+        "b0bb1d63-78ca-4aa5-b191-0bf92419d0ba",
+        "83fa7451-8d78-421a-ac92-9dde343e2d6b",
+        "fd7fefa4-18d7-430f-b5ac-0f41234b199b",
+        "8229583c-6eef-42e5-9f06-64ff554111c3",
+        "5a5fb92e-c6a4-4b24-80f2-4efeb3a77c37",
+        "3aa54626-f77f-4f00-980a-5fe93ca6205d",
+        "ffa55710-171c-4be3-98dc-80924600af40"
+      ]
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Users report pages fail to open 90% of the time, requiring multiple click attempts or app relaunches to access content",
+      "evidence_item_ids": [
+        "abd8f437-0c53-407b-af74-cc4152dfd18b",
+        "0a784e3e-848e-4f0e-803d-1eb8986cd48b",
+        "5a5fb92e-c6a4-4b24-80f2-4efeb3a77c37"
+      ]
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Users experience cursor disappearance and unresponsive UI after typing, preventing further note editing without force-quit",
+      "evidence_item_ids": [
+        "5eaefec3-dc38-4d4f-a97c-369e4bbb91ce",
+        "0a784e3e-848e-4f0e-803d-1eb8986cd48b",
+        "993e5421-71e9-48b4-a3dd-4c7859c55f10"
+      ]
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Issue affects paid users on higher-tier plans, creating revenue risk beyond basic churn",
+      "evidence_item_ids": [
+        "abd8f437-0c53-407b-af74-cc4152dfd18b"
+      ]
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Problem manifests as page load times of 10-15 seconds before crashes occur",
+      "evidence_item_ids": [
+        "2e47ca6b-dd4a-49ab-a191-b5914626da06",
+        "6f828fa4-47da-45b6-8435-d58ad745205f"
+      ]
+    },
+    {
+      "cluster_id": "cluster_26",
+      "claim": "Issue affects both iOS app and web browser, indicating potential backend or data model problem rather than platform-specific bug",
+      "evidence_item_ids": [
+        "83fa7451-8d78-421a-ac92-9dde343e2d6b"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "App becomes unresponsive after 10-15 minutes of editing, requiring force-close and restart",
+      "evidence_item_ids": [
+        "fb438281-a020-4d2a-be54-5b82ed485122"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "15 users gave 1-star reviews, with 12 from US/GB/CA markets",
+      "evidence_item_ids": [
+        "f0323f05-1ad4-4cc1-beed-5cb3d48ab556",
+        "546dd59b-43f1-4e24-aa5e-9af091413594",
+        "63a41ced-4d73-45c4-801c-2399167a489e",
+        "52ad36e5-4027-477f-afce-d5eb63138400",
+        "7f06ba84-1efb-461f-a543-e7a7e4a4ea24",
+        "212ce7e2-01c5-4b79-aeef-1595ae7183e3",
+        "5160269b-2795-445d-ab00-9d1a2e6398c7",
+        "e8506e22-4407-4790-aaab-5ad67d07ce1f",
+        "766b75db-cc3b-42ec-bfb8-1263de041a88",
+        "730316b3-d3e2-4064-a67e-a634a397edab",
+        "bff22f35-3579-4702-870d-bc24b4a837d9",
+        "174a206b-1336-48e7-a692-96518bc67fb6",
+        "4fe87f6e-31ad-4021-9446-11d70a924605"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Multiple users report text is too small to read or edit comfortably on mobile",
+      "evidence_item_ids": [
+        "212ce7e2-01c5-4b79-aeef-1595ae7183e3",
+        "7552763d-3708-413d-8432-34ce5c6587c1"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Users report app frequently times out, signs them out automatically, and crashes",
+      "evidence_item_ids": [
+        "7f06ba84-1efb-461f-a543-e7a7e4a4ea24",
+        "766b75db-cc3b-42ec-bfb8-1263de041a88",
+        "4fe87f6e-31ad-4021-9446-11d70a924605"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Touch targets are misaligned for checkboxes and app extends beyond safe zone in landscape mode",
+      "evidence_item_ids": [
+        "52ad36e5-4027-477f-afce-d5eb63138400"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Screen scrolls up automatically when tagging users with @, obscuring typed content",
+      "evidence_item_ids": [
+        "74252c98-fb53-4176-8c54-5671553c03ca"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Keyboard toolbar disappears making it impossible to hide keyboard or continue editing",
+      "evidence_item_ids": [
+        "f0323f05-1ad4-4cc1-beed-5cb3d48ab556"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Tablet and Apple Pencil support described as incompatible or non-functional",
+      "evidence_item_ids": [
+        "5160269b-2795-445d-ab00-9d1a2e6398c7"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Users cannot zoom, print, or adjust system font size in iOS app",
+      "evidence_item_ids": [
+        "52ad36e5-4027-477f-afce-d5eb63138400"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Feature parity issues: mobile lacks account management and other desktop features",
+      "evidence_item_ids": [
+        "63a41ced-4d73-45c4-801c-2399167a489e",
+        "49b484b0-56ae-447a-94c6-9ddfa834f5ff"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "Gallery view photo attachments to card faces have persistent glitches across views",
+      "evidence_item_ids": [
+        "174a206b-1336-48e7-a692-96518bc67fb6"
+      ]
+    },
+    {
+      "cluster_id": "cluster_20",
+      "claim": "No iOS password manager integration or biometric login options available",
+      "evidence_item_ids": [
+        "4fe87f6e-31ad-4021-9446-11d70a924605",
+        "3e9f97f3-8106-42d7-bbf2-771bbaa049ae"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "45 users report the iOS/iPad app crashes, freezes, or becomes unresponsive, making it unusable",
+      "evidence_item_ids": [
+        "47833e3b-426f-4f46-baf5-098165ea5955",
+        "fe44ad19-a5d5-4fc1-a431-5eb360afd603",
+        "d5e6073c-339b-4ab0-94b9-a0a12fd3c1d1",
+        "8cfb645c-db2d-440a-826e-afced8d35e36",
+        "0da4b8e9-6e14-47b8-8bf1-765783cab53c"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users report the app auto-refreshes every 5-10 seconds, interrupting typing and reading workflows",
+      "evidence_item_ids": [
+        "225f52bf-72ae-4a0a-8aaa-1eb01cf1cf11",
+        "8fff6714-7f42-46b8-9266-a42d88a4cea9",
+        "f3523539-1111-4244-a24b-c01a5441bbc5",
+        "0c2ca316-7a67-458b-bb09-6a596e9762c5"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "iPad-specific issues reported include screen freezing, button presses not registering, and app not opening at all",
+      "evidence_item_ids": [
+        "47833e3b-426f-4f46-baf5-098165ea5955",
+        "3a2d33ff-72a2-40b0-94a4-350ace60c995",
+        "c3fe6c4f-085a-441e-8088-5c79ece62e2b",
+        "7506ffe5-f75f-4e87-9f5b-eac1c22441a5",
+        "b2ea2376-01d2-45a7-8814-6300478373d0"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users report database views trigger infinite crash-reload loops on mobile",
+      "evidence_item_ids": [
+        "0da4b8e9-6e14-47b8-8bf1-765783cab53c"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users explicitly state they love desktop Notion but cannot use the mobile app, indicating platform-specific regression",
+      "evidence_item_ids": [
+        "fe44ad19-a5d5-4fc1-a431-5eb360afd603",
+        "0c2ca316-7a67-458b-bb09-6a596e9762c5",
+        "7506ffe5-f75f-4e87-9f5b-eac1c22441a5"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "14 users from GB, 14 from CA, 9 from US, and 8 from AU affected, indicating widespread geographic impact",
+      "evidence_item_ids": [
+        "0da4b8e9-6e14-47b8-8bf1-765783cab53c",
+        "8cfb645c-db2d-440a-826e-afced8d35e36",
+        "fe44ad19-a5d5-4fc1-a431-5eb360afd603",
+        "8fff6714-7f42-46b8-9266-a42d88a4cea9"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Users report needing to repeatedly delete/reinstall the app or restart their devices as temporary workarounds",
+      "evidence_item_ids": [
+        "f3523539-1111-4244-a24b-c01a5441bbc5",
+        "8cfb645c-db2d-440a-826e-afced8d35e36",
+        "81837cba-a118-4d7f-a447-76ba9a3408ba"
+      ]
+    },
+    {
+      "cluster_id": "cluster_21",
+      "claim": "Issues persist across multiple app versions and years, with reports spanning 2021 to 2026",
+      "evidence_item_ids": [
+        "8cfb645c-db2d-440a-826e-afced8d35e36",
+        "d7143f26-3bf3-4e4d-8cb5-096ffc95bdf6",
+        "62c87648-c2e6-471a-98b8-63439801539d",
+        "225f52bf-72ae-4a0a-8aaa-1eb01cf1cf11"
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Users cannot adjust font size on mobile apps, creating accessibility barriers for visually impaired users",
+      "evidence_item_ids": [
+        "63af3dc5-dd10-4799-ada1-87a8799cd7fe",
+        "2609e6e4-2e96-4358-81c2-1cc74c3c55eb",
+        "b39408f3-7eae-4bc9-942b-1f660291591e",
+        "30c8ad4a-c230-477f-b3e1-5647c10747ea"
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Mobile app does not support iOS Dynamic Type for system-level font scaling",
+      "evidence_item_ids": [
+        "fd392823-8cb7-4aef-b7cd-ea1eb03529b1",
+        "7e6a10c0-856e-4402-ba93-b0184d803bb6",
+        "9da3b2c4-c1dc-44e9-b557-e322a1f12a4c"
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Font size issues are particularly acute on iPad 12.9 inch where default text appears too small",
+      "evidence_item_ids": [
+        "8b13d819-787e-481f-9df1-54f56538d00c",
+        "5879f0e5-2059-416c-9ac6-adb000114574"
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Users find Chinese characters especially difficult to read at current mobile font sizes",
+      "evidence_item_ids": [
+        "1367bd70-6402-4496-bc84-6c4407931591"
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "Users report the workaround of increasing system-wide font size makes other apps unusable",
+      "evidence_item_ids": [
+        "2609e6e4-2e96-4358-81c2-1cc74c3c55eb",
+        "1e861872-989f-4ca6-9550-2f920a4d529c"
+      ]
+    },
+    {
+      "cluster_id": "cluster_6",
+      "claim": "21 reports originated from Canada, representing 43% of the 49 total items in this theme",
+      "evidence_item_ids": [
+        "63af3dc5-dd10-4799-ada1-87a8799cd7fe",
+        "99ded2b4-b6c4-45a4-a8ad-befa14a343f2",
+        "9c928ce8-7961-441a-80af-f08edeb8c8c3",
+        "2609e6e4-2e96-4358-81c2-1cc74c3c55eb"
+      ]
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "iPad app does not support columns, forcing users to desktop despite preferring iPad as primary device",
+      "evidence_item_ids": [
+        "be22826c-d18c-4a89-8dc9-b5b6d7da1c08",
+        "5744806d-bb90-497d-aad6-9557e1c7d865",
+        "5920dc25-da45-4465-bd2b-dfcad9beff16",
+        "4433b016-c59a-4006-bca8-e3daa878f62d",
+        "fcfc08b5-394a-4d84-90e1-05217adfc034"
+      ]
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Multi-column pages render poorly on iPad with content squeezed or cut off despite sufficient screen space",
+      "evidence_item_ids": [
+        "0ebf6a5f-58ae-4339-8712-aef7456e6f02",
+        "9eb5ad17-7991-4cad-bd20-4f7a278cf483",
+        "b3625111-e940-4ad9-ba44-f7ea24e45daf"
+      ]
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Drag-and-drop functionality for moving items between columns is broken or extremely difficult on iPad",
+      "evidence_item_ids": [
+        "682010e1-6cd4-4440-9c2a-412cd8bf36db",
+        "8bb131b6-ffed-45d7-a8b5-fad55244ae72"
+      ]
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "iPad app lacks widget support that users expect",
+      "evidence_item_ids": [
+        "0ebf6a5f-58ae-4339-8712-aef7456e6f02"
+      ]
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Forward slash shortcuts available on web are missing from iOS app, degrading productivity",
+      "evidence_item_ids": [
+        "d6342ab7-0d1d-4dbe-b2a3-0fb127ea4998"
+      ]
+    },
+    {
+      "cluster_id": "cluster_31",
+      "claim": "Database management tasks like deletion and table conversion are confusing or broken on iPad",
+      "evidence_item_ids": [
+        "12bbbd71-cfd5-49e4-afee-f69edb4b1ac8",
+        "8bb131b6-ffed-45d7-a8b5-fad55244ae72"
+      ]
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Cursor disappears during typing on iPad, preventing text editing and selection",
+      "evidence_item_ids": [
+        "b69eecf8-ee5f-4ba6-a884-4978e55aa493",
+        "348d81a3-cf13-44f4-ace5-8c547a467d88",
+        "3b1d6304-2275-4eeb-8f97-6b87974e190b"
+      ]
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Multi-tab support is absent on iPad despite being available on desktop",
+      "evidence_item_ids": [
+        "12a148d9-c525-4a91-8f87-554ab707bdc4",
+        "4148791a-881b-4904-8cb8-c8a32522754f",
+        "7ad3f7c2-3a0d-44ae-a52c-0c5f3dbac89e"
+      ]
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Apple Pencil support is described as horrendous and effectively non-existent",
+      "evidence_item_ids": [
+        "c37d1d97-5938-450d-948c-ae35cd882a38",
+        "328e24d8-3614-4f9d-8286-3dd7ade6fd63",
+        "e74a7663-1c11-4653-a446-946f1c9ac1c2"
+      ]
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "iPad app lacks features available on desktop including slash commands, inline equations, and calendar",
+      "evidence_item_ids": [
+        "aa8cba0b-1043-48b0-8d77-9c309dd399be",
+        "348d81a3-cf13-44f4-ace5-8c547a467d88",
+        "fd50a880-6ac1-422e-8481-ff35abc00c42",
+        "7ad3f7c2-3a0d-44ae-a52c-0c5f3dbac89e"
+      ]
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Users report the iPad app is laggy, slow, and glitchy during basic operations",
+      "evidence_item_ids": [
+        "b06954d6-4918-40d0-9aa0-0e936a5b0252",
+        "aa1dbf2f-4aef-4a36-a2f5-163d727be307"
+      ]
+    },
+    {
+      "cluster_id": "cluster_32",
+      "claim": "Users describe the iPad experience as effectively unusable or view-only",
+      "evidence_item_ids": [
+        "a8555d46-7bad-4206-ae00-68234f258aab",
+        "fd50a880-6ac1-422e-8481-ff35abc00c42",
+        "328e24d8-3614-4f9d-8286-3dd7ade6fd63"
+      ]
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "14 users report the app becomes stuck on a loading screen, preventing access to any content",
+      "evidence_item_ids": [
+        "5d540767-c310-4af7-b814-9783b2dc42d4",
+        "8e204742-f5cd-4871-8bcd-a61660805f4e",
+        "fac53b31-0d85-4fd3-9ead-43064f233bd6",
+        "5718bc4d-ea19-4df1-974e-1271e6804f81",
+        "721fbdde-ac22-4f8d-85ae-4a91c4571e28"
+      ]
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Multiple users explicitly link the loading screen issue to recent app updates",
+      "evidence_item_ids": [
+        "5d540767-c310-4af7-b814-9783b2dc42d4",
+        "fac53b31-0d85-4fd3-9ead-43064f233bd6",
+        "ac858ae9-d4a9-4ec9-9224-cd8dc8098659"
+      ]
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Standard troubleshooting steps including reinstallation, device restart, and force closing fail to resolve the issue",
+      "evidence_item_ids": [
+        "5718bc4d-ea19-4df1-974e-1271e6804f81",
+        "ed9db5ce-c4f8-4354-b262-fb1226ca617e",
+        "721fbdde-ac22-4f8d-85ae-4a91c4571e28",
+        "d9658265-ab08-4790-b0df-a90d04989a2f"
+      ]
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Users report the desktop version works correctly while the mobile app is broken",
+      "evidence_item_ids": [
+        "d3f233ed-e58f-4b7b-b892-561f83355ed9",
+        "ed9db5ce-c4f8-4354-b262-fb1226ca617e",
+        "6f3082d7-47c0-47b6-a28c-c43e578ac863"
+      ]
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "One user reports the app works correctly once after reinstall then breaks again",
+      "evidence_item_ids": [
+        "721fbdde-ac22-4f8d-85ae-4a91c4571e28"
+      ]
+    },
+    {
+      "cluster_id": "cluster_23",
+      "claim": "Issue affects users across Canada (5), United Kingdom (4), United States (3), and Australia (2)",
+      "evidence_item_ids": [
+        "5d540767-c310-4af7-b814-9783b2dc42d4",
+        "fac53b31-0d85-4fd3-9ead-43064f233bd6",
+        "5718bc4d-ea19-4df1-974e-1271e6804f81",
+        "8e204742-f5cd-4871-8bcd-a61660805f4e"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "4 users report app crashes, freezing, or infinite refresh issues when notes contain more text",
+      "evidence_item_ids": [
+        "78965276-c9fd-45e5-9436-4e82ccf1ca94",
+        "b77d08b5-3f89-4286-a0ca-5feb8a88db72"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "4 users explicitly request Russian language support, with one user stating lack of Russian language prevents purchase",
+      "evidence_item_ids": [
+        "d4b040a6-40cf-4bcb-a88e-dc84d0e089a7",
+        "2ab8dcf3-c882-4761-935b-b372f52a0922",
+        "ab551b6f-de25-4fc7-bd59-6caf65ad48d1",
+        "f89d328b-8d80-4875-8a1c-cb43166764f4"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "2 users report Turkish language support is missing and cite this as reason for not purchasing",
+      "evidence_item_ids": [
+        "abf76009-f3a1-4e20-84fc-7627063ec6a0",
+        "c2cd07c7-f77d-4b22-9b85-272edb7d7d66"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "1 user requests Apple Pencil scribble feature integration and reports language input switching issues",
+      "evidence_item_ids": [
+        "64b752de-9ec4-438a-ab37-72fcb0e376eb"
+      ]
+    },
+    {
+      "cluster_id": "cluster_2",
+      "claim": "1 user reports forced AI button placement disrupts interface cleanliness and cannot be disabled",
+      "evidence_item_ids": [
+        "e34e8809-ccbf-4482-ad1d-f97d58dcb9fe"
+      ]
+    }
+  ],
+  "recommended_actions": [
+    {
+      "cluster_id": "cluster_5",
+      "action": "Implement user-controlled toggle to completely hide AI features from interface for users who opt-out",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_5",
+      "action": "Restore homepage customization controls to allow users to remove AI chatbot default view",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_5",
+      "action": "Audit and reduce frequency of AI feature promotion prompts, especially during core writing/editing workflows",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_5",
+      "action": "Investigate performance regression in search functionality reported since AI integration",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_5",
+      "action": "Conduct user research with long-time users to understand interface principles they valued before AI rollout",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_24",
+      "action": "Immediately roll back latest mobile app release and investigate crash logs for launch failures",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_24",
+      "action": "Implement skip/dismiss functionality for onboarding tutorial to prevent user lockout",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_24",
+      "action": "Establish mobile app stability regression testing before each release to catch launch crashes",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_24",
+      "action": "Create alternative support channel accessible outside the app for users experiencing launch failures",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_24",
+      "action": "Review mobile update QA process given pattern of new bugs introduced with each release",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_29",
+      "action": "Audit and fix Apple Pencil input handling on iOS app to resolve text registration failures, spacing issues, and erratic touch behavior",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_29",
+      "action": "Research feasibility of native drawing/inking canvas feature for iPad, scoping against GoodNotes and Notability feature sets",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_29",
+      "action": "Verify Apple Pencil Scribble API integration and restore functionality if broken",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_29",
+      "action": "Conduct user interviews with iPad/education segment to validate drawing feature prioritization and define MVP scope",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_18",
+      "action": "Conduct performance profiling on iOS app focusing on editing workflows, page refresh triggers, and scrolling interactions to identify root causes of freezing",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_18",
+      "action": "Instrument crash analytics specifically for force-close events to quantify frequency and identify affected user segments",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_18",
+      "action": "Prioritize iPad-specific performance optimization, particularly for database operations and typing input handlers",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_18",
+      "action": "Implement emergency fix for page auto-refresh behavior preventing database scrolling and drag-drop operations",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_18",
+      "action": "Add performance regression testing for iOS app releases to prevent progressive degradation",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "action": "Immediately investigate authentication flow for data loss bug, prioritizing Canadian and British user sessions from 2021-2026 timeframe",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "action": "Implement emergency data recovery protocol for affected users and audit backup systems for data retention failures",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "action": "Add pre-logout data integrity validation and post-login workspace verification to detect missing data before user interaction",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "action": "Create automated monitoring for logout events correlated with workspace disappearance to detect future occurrences in real-time",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "action": "Review app update deployment process to identify correlation between releases and data loss incidents",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_15",
+      "action": "Conduct mobile-specific usability testing with new users to identify top 5 navigation pain points",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_15",
+      "action": "Enable basic account settings (name change) on mobile to match desktop feature parity",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_15",
+      "action": "Audit and redesign mobile UI for touch-first interaction patterns, tablet optimization, and gesture support",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_15",
+      "action": "Create in-app onboarding tutorial specifically for mobile users covering core workflows",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_15",
+      "action": "Implement mobile-optimized templates and module creation flows to reduce complexity",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_16",
+      "action": "Immediately investigate mobile text input focus and viewport scroll behavior, prioritizing iOS and Android native keyboard integration",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_16",
+      "action": "Add telemetry to track cursor placement failures, viewport jump events, and text input session failures on mobile",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_16",
+      "action": "Audit external keyboard support (Magic Keyboard, Bluetooth keyboards) for cursor positioning and input handling",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_16",
+      "action": "Test stylus-to-touch input method switching on iPad and Android tablets to reproduce input lockup",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_3",
+      "action": "Audit subscription state sync between payment processor, mobile app, and web app to identify why paid subscriptions are not recognized",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_3",
+      "action": "Add billing management and cancellation functionality to mobile app",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_3",
+      "action": "Review and fix subscription platform interoperability between iOS in-app purchase and web subscriptions",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_3",
+      "action": "Implement human support escalation path for billing disputes instead of relying solely on AI chat",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_3",
+      "action": "Remove screen recording requirement from cancellation dispute policy",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_3",
+      "action": "Audit cancellation flow to prevent unintended payment capture during retention messaging",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_3",
+      "action": "Add post-payment verification step to confirm subscription entitlements are granted before charging user",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_9",
+      "action": "Implement read-only offline access for previously viewed pages as minimum viable solution",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_9",
+      "action": "Design and implement offline editing with conflict resolution for when users reconnect",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_9",
+      "action": "Add visual indicators and user notifications when offline to prevent unexpected data loss",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_9",
+      "action": "Conduct user research on offline workflow requirements and acceptable limitations for database features",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_7",
+      "action": "Reproduce template search flow on iPad (all supported models) and fix UI breakage preventing template viewing after search",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_7",
+      "action": "Fix keyboard dismissal behavior in template browser to allow scrolling and navigation",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_7",
+      "action": "Debug template duplication and edit persistence on iPad to prevent revert-to-original bug",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_7",
+      "action": "Audit and fix absolute positioning logic for AI button and other UI elements on iPad viewports",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_7",
+      "action": "Add crash tracking specifically for template operations on iPad to capture repro steps",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_13",
+      "action": "Immediately audit authentication flow for sign-in link generation and validation logic to identify why links loop back to sign-in page",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_13",
+      "action": "Investigate session management on mobile app to determine root cause of automatic logouts and implement session persistence",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_13",
+      "action": "Fix password reset email delivery and link validation to restore self-service account recovery",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_13",
+      "action": "Review OAuth implementation for Google and Apple sign-in methods, prioritizing error handling and button functionality",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_13",
+      "action": "Implement account recovery workflow for users locked out of paid accounts with data loss",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_13",
+      "action": "Add geographic segmentation to error logging to investigate potential regional API or infrastructure issues in GB, CA, AU",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "action": "Halt new iPad feature work and assign senior iOS engineer to reproduce and fix external keyboard input breaking after 2-3 characters",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "action": "Audit iPad keyboard event handling for Magic Keyboard and Smart Keyboard, focusing on cursor state and input buffer management",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "action": "Fix copy/paste functionality on iPad to match desktop parity",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "action": "Investigate and fix screen jumping/auto-scroll during keyboard input on iPad",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "action": "Add automated iPad keyboard interaction tests covering external keyboard typing, copy/paste, and cursor positioning",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "action": "Implement iPad-specific performance monitoring for keyboard latency and responsiveness metrics",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_4",
+      "action": "Add month view to mobile calendar with visible task/event titles (not just dots)",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_4",
+      "action": "Fix event creation save failure on iPhone reported in item ba9052b0",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_4",
+      "action": "Audit and fix calendar sync logic for Apple Calendar and Google Calendar on iPad/mobile",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_4",
+      "action": "Revise mobile calendar navigation to preserve day view context when backing out of events",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_4",
+      "action": "Ship first-run onboarding flow for calendar setup targeting new users",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_4",
+      "action": "Investigate and resolve auto-refresh stability issues in mobile calendar",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_26",
+      "action": "Instrument crash reporting to identify memory threshold or content size triggering iOS app crashes with large notes",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_26",
+      "action": "Implement pagination or lazy-loading for large note content to prevent full document load on open",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_26",
+      "action": "Add client-side size warnings or block note creation beyond tested performance limits until optimization complete",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_26",
+      "action": "Profile page load performance for notes exceeding 10KB to identify server-side vs client-side bottlenecks",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_26",
+      "action": "Conduct outreach to paid user reporting 90% failure rate to prevent immediate churn and gather detailed repro steps",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Investigate and fix unresponsiveness/freezing after 10-15 minutes of editing session",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Audit and fix touch target alignment for interactive elements (checkboxes, buttons)",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Fix keyboard toolbar disappearing issue preventing keyboard dismissal",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Resolve auto-scroll behavior when using @ mentions that obscures content",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Implement system font size support and pinch-to-zoom for accessibility",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Fix safe zone layout violations in landscape orientation",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Add iOS biometric authentication (Face ID/Touch ID) and password manager integration",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Conduct mobile-specific performance profiling to address timeout and crash reports",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Audit feature parity gaps between mobile and desktop (account settings, print, etc.)",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_20",
+      "action": "Fix gallery view photo persistence bug when switching between table/gallery views",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_21",
+      "action": "Reproduce crash and auto-refresh behavior on iOS/iPadOS devices using real user database views and page structures",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_21",
+      "action": "Implement crash reporting telemetry to identify frequency, device models, iOS versions, and triggering actions",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_21",
+      "action": "Audit database view rendering and infinite refresh loops on mobile clients",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_21",
+      "action": "Investigate iPad-specific touch input handling and button registration failures",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_21",
+      "action": "Establish mobile app stability SLO and regression testing suite before releases",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "action": "Implement iOS Dynamic Type support to respect system-level text size preferences",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "action": "Add in-app font size control slider for mobile apps (iOS and Android)",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "action": "Conduct accessibility audit of mobile app against WCAG 2.1 AA text scaling requirements",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "action": "Test font rendering for non-Latin scripts (Chinese, Japanese, Korean) at various sizes",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_31",
+      "action": "Ship column support for iPad app (most frequently requested feature across 5+ reviews)",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_31",
+      "action": "Implement responsive layout for multi-column pages on iPad to prevent content squeezing",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_31",
+      "action": "Fix drag-and-drop for column-based workflows on iPad touch interface",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_31",
+      "action": "Add forward slash keyboard shortcuts to iOS app for feature parity with web",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_31",
+      "action": "Audit database management flows (deletion, table conversion) on iPad for usability",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_32",
+      "action": "Fix cursor disappearing bug during typing and text selection on iPad",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_32",
+      "action": "Implement multi-tab support for iPad app matching desktop functionality",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_32",
+      "action": "Overhaul Apple Pencil input handling to enable reliable text selection and navigation",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_32",
+      "action": "Audit and restore feature parity between iPad and desktop for slash commands, inline equations, and calendar views",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_32",
+      "action": "Investigate and fix keyboard not appearing when text boxes are tapped",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_32",
+      "action": "Profile and optimize iPad app performance to address lag and sluggishness",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_23",
+      "action": "Audit recent mobile app releases between 2021-01 and 2026-05 to identify update(s) that introduced loading screen regression",
+      "urgency": "immediate"
+    },
+    {
+      "cluster_id": "cluster_23",
+      "action": "Implement telemetry to capture loading screen timeout events and associated network/API errors in mobile app",
+      "urgency": "this_sprint"
+    },
+    {
+      "cluster_id": "cluster_23",
+      "action": "Add offline fallback support to prevent complete app failure when network requests hang",
+      "urgency": "next_quarter"
+    },
+    {
+      "cluster_id": "cluster_23",
+      "action": "Review mobile app state persistence logic to understand why reinstall provides temporary fix before breaking again",
+      "urgency": "this_sprint"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "/PrismEcrStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:16:18)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismEcrStack/EcrRepoUri": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EcrRepoUri"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismEcrStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-ecr-stack.ts:39:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:16:18)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismEcrStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismEcrStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismEcrStack/PrismBackendRepo/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismBackendRepoA63DF633"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Repository2 in aws-cdk-lib...",
+        "new PrismEcrStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-ecr-stack.ts:23:23)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:16:18)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismEcrStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismEcrStack/Exports/Output{\"Fn::GetAtt\":[\"PrismBackendRepoA63DF633\",\"Arn\"]}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputFnGetAttPrismBackendRepoA63DF633Arn29D638DB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismEcrStack/Exports/Output{\"Ref\":\"PrismBackendRepoA63DF633\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputRefPrismBackendRepoA63DF6332AF4D81A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ]
+}

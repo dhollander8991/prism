@@ -1,0 +1,138 @@
+{
+ "Description": "PRISM — ECR repository for the backend image (deploy before PrismStack)",
+ "Resources": {
+  "PrismBackendRepoA63DF633": {
+   "Type": "AWS::ECR::Repository",
+   "Properties": {
+    "EmptyOnDelete": true,
+    "LifecyclePolicy": {
+     "LifecyclePolicyText": "{\"rules\":[{\"rulePriority\":1,\"description\":\"Keep last 3 images\",\"selection\":{\"tagStatus\":\"any\",\"countType\":\"imageCountMoreThan\",\"countNumber\":3},\"action\":{\"type\":\"expire\"}}]}"
+    },
+    "RepositoryName": "prism-backend"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "PrismEcrStack/PrismBackendRepo/Resource"
+   }
+  },
+  "CDKMetadata": {
+   "Type": "AWS::CDK::Metadata",
+   "Properties": {
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/zPSMzIz1DNQTCwv1k1OydbNyUzSqw4uSUzO1kksL45PTS7Sqw5KLcgvzizJL6rUcU7LQ/BqQVz/0pKC0pJanbz8lFS9rGL9MiMjPRBSzCrOzNQtKs0rycxN1QuC0ACYAmIQbgAAAA=="
+   },
+   "Metadata": {
+    "aws:cdk:path": "PrismEcrStack/CDKMetadata/Default"
+   }
+  }
+ },
+ "Outputs": {
+  "EcrRepoUri": {
+   "Description": "ECR repository URI — used by make build-push",
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      {
+       "Fn::Select": [
+        4,
+        {
+         "Fn::Split": [
+          ":",
+          {
+           "Fn::GetAtt": [
+            "PrismBackendRepoA63DF633",
+            "Arn"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      ".dkr.ecr.",
+      {
+       "Fn::Select": [
+        3,
+        {
+         "Fn::Split": [
+          ":",
+          {
+           "Fn::GetAtt": [
+            "PrismBackendRepoA63DF633",
+            "Arn"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      ".",
+      {
+       "Ref": "AWS::URLSuffix"
+      },
+      "/",
+      {
+       "Ref": "PrismBackendRepoA63DF633"
+      }
+     ]
+    ]
+   },
+   "Export": {
+    "Name": "PrismEcrUri"
+   }
+  },
+  "ExportsOutputFnGetAttPrismBackendRepoA63DF633Arn29D638DB": {
+   "Value": {
+    "Fn::GetAtt": [
+     "PrismBackendRepoA63DF633",
+     "Arn"
+    ]
+   },
+   "Export": {
+    "Name": "PrismEcrStack:ExportsOutputFnGetAttPrismBackendRepoA63DF633Arn29D638DB"
+   }
+  },
+  "ExportsOutputRefPrismBackendRepoA63DF6332AF4D81A": {
+   "Value": {
+    "Ref": "PrismBackendRepoA63DF633"
+   },
+   "Export": {
+    "Name": "PrismEcrStack:ExportsOutputRefPrismBackendRepoA63DF6332AF4D81A"
+   }
+  }
+ },
+ "Parameters": {
+  "BootstrapVersion": {
+   "Type": "AWS::SSM::Parameter::Value<String>",
+   "Default": "/cdk-bootstrap/hnb659fds/version",
+   "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]"
+  }
+ },
+ "Rules": {
+  "CheckBootstrapVersion": {
+   "Assertions": [
+    {
+     "Assert": {
+      "Fn::Not": [
+       {
+        "Fn::Contains": [
+         [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+         ],
+         {
+          "Ref": "BootstrapVersion"
+         }
+        ]
+       }
+      ]
+     },
+     "AssertDescription": "CDK bootstrap stack version 6 required. Please run 'cdk bootstrap' with a recent version of the CDK CLI."
+    }
+   ]
+  }
+ }
+}

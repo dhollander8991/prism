@@ -1,0 +1,59 @@
+{
+  "timestamp": "20260712T131329",
+  "golden_dir": "eval/golden",
+  "numeric_guard": {
+    "total_findings_checked": 137,
+    "total_actions_checked": 106,
+    "total_tokens_with_violations": 7,
+    "unique_clusters_with_violations": 4
+  },
+  "numeric_violations": [
+    {
+      "cluster_id": "cluster_29",
+      "token": "70%",
+      "where": "claim",
+      "claim": "iPad users in educational settings (students, teachers) represent a significant affected segment, with one user estimating 60-70% of students have writable devices"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "token": "1 month",
+      "where": "claim",
+      "claim": "Users report losing critical time-sensitive data including exam materials due within 2 days, university lecture notes 1 month before finals, and multi-year work spanning 3+ years"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "token": "3+ years",
+      "where": "claim",
+      "claim": "Users report losing critical time-sensitive data including exam materials due within 2 days, university lecture notes 1 month before finals, and multi-year work spanning 3+ years"
+    },
+    {
+      "cluster_id": "cluster_34",
+      "token": "18",
+      "where": "claim",
+      "claim": "18 users rated the app 1-2 stars specifically citing iPad keyboard issues"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "token": "43%",
+      "where": "claim",
+      "claim": "21 reports originated from Canada, representing 43% of the 49 total items in this theme"
+    },
+    {
+      "cluster_id": "cluster_12",
+      "token": "2021-2026",
+      "where": "action",
+      "claim": "Immediately investigate authentication flow for data loss bug, prioritizing Canadian and British user sessions from 2021-2026 timeframe"
+    },
+    {
+      "cluster_id": "cluster_6",
+      "token": "2.1",
+      "where": "action",
+      "claim": "Conduct accessibility audit of mobile app against WCAG 2.1 AA text scaling requirements"
+    }
+  ],
+  "hallucinated_citation_rate": 0.0,
+  "hallucinated_citation_count": 0,
+  "total_with_evidence": 137,
+  "churn_distribution": {},
+  "priority_distribution": {}
+}

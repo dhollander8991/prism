@@ -1,0 +1,721 @@
+{
+  "/PrismStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    },
+    {
+      "type": "aws:cdk:warning",
+      "data": "No cross-stack-reference strength configured, defaulting to \"strong\". We recommend you set feature flag \"@aws-cdk/core:defaultCrossStackReferences\" to \"both\", then deploy everywhere, then set it to \"weak\". Alternatively, set it to \"strong\" explicitly to lock in the current producer-protecting behavior. (See: https://github.com/aws/aws-cdk/blob/main/packages/aws-cdk-lib/README.md#reference-strength) [ack: @aws-cdk/core:crossStackReferencesDefaultStrong]",
+      "trace": [
+        "Annotations.addMessage (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/annotations.js:1:3441)",
+        "Annotations.addWarningV2 (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/annotations.js:1:2129)",
+        "resolveValue (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/private/refs.js:1:6065)",
+        "resolveReferences (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/private/refs.js:1:4778)",
+        "prepareApp (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/private/prepare-app.js:1:1514)",
+        "synthesize (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:1:3701)",
+        "App.synth (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/stage.js:1:4636)",
+        "App.synth (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/app.js:1:4814)",
+        "process.<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/core/lib/app.js:1:3773)",
+        "Object.onceWrapper (node:events:634:26)",
+        "process.emit (node:events:519:28)",
+        "process.emit (node:domain:489:12)",
+        "process.emit.sharedData.processEmitHook.installedValue [as emit] (/Users/danielhollander/WebstormProjects/prism/infra/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismTaskLogGroup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismTaskLogGroup"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:146:25)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/GithubOidcProvider": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GithubOidcProvider"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:311:32)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/AlbDnsName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AlbDnsName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:381:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/RdsEndpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RdsEndpoint"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:387:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/DbSecretArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DbSecretArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:393:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/AnthropicSecretArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnthropicSecretArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:399:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/OidcRoleArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "OidcRoleArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:405:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/EcsClusterName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EcsClusterName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:411:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/EcsServiceName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "EcsServiceName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:416:5)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpc6DEB2BAF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Vpc2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:35:17)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/IGW": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcIGWAB4B75BD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Vpc2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:35:17)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/VPCGW": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcVPCGW27C1EFAD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Vpc2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:35:17)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/AlbSg/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AlbSg1155C1BE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new SecurityGroup2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:55:19)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/AlbSg/to PrismStackTaskSg0A4C47B5:8000": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AlbSgtoPrismStackTaskSg0A4C47B580001D9A63DE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismStack/TaskSg/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TaskSgFD7B04A0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new SecurityGroup2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:68:20)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/TaskSg/from PrismStackAlbSgEF70614E:8000": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TaskSgfromPrismStackAlbSgEF70614E800023F820A3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.<anonymous> in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:73:12)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/DbSg/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DbSg495F8305"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new SecurityGroup2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:76:18)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/DbSg/from PrismStackTaskSg0A4C47B5:5432": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DbSgfromPrismStackTaskSg0A4C47B554323D68F663"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.<anonymous> in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:81:10)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismDb/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismDbB6CE47C6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new DatabaseInstance2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:87:16)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/AnthropicApiKey/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnthropicApiKeyC9C806DA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Secret2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:123:29)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismCluster/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismCluster0C7BD760"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Cluster2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:133:21)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismTaskExecutionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismTaskExecutionRole214205D9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Role2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:161:27)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismTaskRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismTaskRole9F91D9A8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Role2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:175:22)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismTaskDef/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismTaskDefEA7A05E0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new FargateTaskDefinition2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:185:21)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismAlb/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismAlb790DE988"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancer2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:248:17)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismService/LoadBalancerDNS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismServiceLoadBalancerDNS9C9DE8C4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:260:28)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismService/ServiceURL": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismServiceServiceURL6619A69A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:260:28)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/GithubDeployRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GithubDeployRoleB0CF66A5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Role2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:332:24)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet1/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet1Subnet5598907D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:268 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet1/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet1RouteTable89555467"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:268 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet1/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet1RouteTableAssociation270F8878"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:268 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet1/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet1DefaultRoute1FB4C58F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:208 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:35:17)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet2/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet2Subnet8BDC105C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:268 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet2/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet2RouteTableF1840BB7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:268 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet2/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet2RouteTableAssociation7A84DF72"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:268 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismVpc/publicSubnet2/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismVpcpublicSubnet2DefaultRoute5022BF50"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../Users/danielhollander/WebstormProjects/prism/infra/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1:208 in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...new Vpc2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:35:17)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismDb/SubnetGroup/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismDbSubnetGroup9C338035"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new DatabaseInstance2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:87:16)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismDb/Secret/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismStackPrismDbSecret3CE4DC86751bb2c8db1439033c3cf7b466757eeb"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new DatabaseInstance2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:87:16)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismTaskExecutionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismTaskExecutionRoleDefaultPolicyDF04F8E1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.grantRead in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:172:16)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismTaskRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismTaskRoleDefaultPolicy78DEBAA7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismAlb/PublicListener/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismAlbPublicListenerA5664FF5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismService/Service/Service": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismService9802D7EB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:260:28)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/GithubDeployRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GithubDeployRoleDefaultPolicyE8F540D1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.grantPullPush in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:348:10)"
+      ]
+    }
+  ],
+  "/PrismStack/PrismDb/Secret/Attachment/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismDbSecretAttachment99C6D0A1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new DatabaseInstance2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:87:16)",
+        "<anonymous> (/Users/danielhollander/WebstormProjects/prism/infra/bin/prism.ts:21:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/PrismStack/PrismAlb/PublicListener/ECSGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PrismAlbPublicListenerECSGroup77803E32"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new ApplicationLoadBalancedFargateService2 in aws-cdk-lib...",
+        "new PrismStack (/Users/danielhollander/WebstormProjects/prism/infra/lib/prism-stack.ts:260:28)"
+      ]
+    }
+  ]
+}

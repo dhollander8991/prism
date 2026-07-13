@@ -1,0 +1,33 @@
+# Exclude the venv — the image builds its own via pip install.
+venv/
+.venv/
+
+# Never bake secrets into the image.
+.env
+.env.*
+
+# Build noise
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tests are not needed at runtime.
+tests/
+
+# Eval scripts and fixtures aren't runtime code.
+eval/
+
+# SCM
+.git/
+.gitignore
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# The frontend lives outside backend/ but just in case.
+../frontend/
