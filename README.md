@@ -30,7 +30,7 @@ Unprompted, from raw review text:
 The AI-backlash theme (115 items) is a genuine product-strategy signal nobody searched for.
 The data-loss theme surfaced users being **prompted to pay to recover notes the app lost.**
 
-![Insights list](docs/insights-list.png)
+![Insights list](docs/evidence-expanded.png)
 
 ---
 
@@ -42,7 +42,7 @@ fluent, confident paragraph asserting things no user ever said.
 
 So every finding cites the specific reviews it came from, and the UI shows them:
 
-![Evidence expanded](docs/evidence-expanded.png)
+![Evidence expanded](docs/insights-list.png)
 
 Note the 4-star review praising the app while describing the exact bug. The model isn't
 summarising sentiment — it's extracting a specific, verifiable claim.
